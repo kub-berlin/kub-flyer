@@ -22,8 +22,6 @@
 	</office:font-face-decls>
 	<office:styles>
 		<draw:fill-image draw:name="_31_" draw:display-name="1" xlink:href="Pictures/100002010000049C00000181DCBC12C4D3446B0A.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
-		<draw:fill-image draw:name="_31_000000000000DB4000009B0545F8E11915F13EC" draw:display-name="1000000000000DB4000009B0545F8E11915F13EC" xlink:href="Pictures/1000000000000DB4000009B0293EF0D462C9A193.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
-		<draw:fill-image draw:name="_31_000000000000DB4000009B05FD6F691D10CBAC2" draw:display-name="1000000000000DB4000009B05FD6F691D10CBAC2" xlink:href="Pictures/1000000000000DB4000009B0E91D856D8A210629.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
 		<draw:fill-image draw:name="_32_" draw:display-name="2" xlink:href="Pictures/1000020100000492000001CE6CA06D2C46A64FAB.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
 		<draw:fill-image draw:name="_33_" draw:display-name="3" xlink:href="Pictures/100002010000049D000001ED01D22CCAC9019053.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
 		<draw:fill-image draw:name="_34_" draw:display-name="4" xlink:href="Pictures/10000201000004F0000001194EA5B35AFEF2C98C.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>

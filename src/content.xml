@@ -2,24 +2,7 @@
 <office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2">
 	<office:scripts/>
 	<office:font-face-decls>
-		<style:font-face style:name="OpenSymbol1" svg:font-family="OpenSymbol" style:font-charset="x-symbol"/>
-		<style:font-face style:name="StarSymbol" svg:font-family="StarSymbol" style:font-charset="x-symbol"/>
-		<style:font-face style:name="Futura Bk BT1" svg:font-family="&apos;Futura Bk BT&apos;"/>
-		<style:font-face style:name="FuturaT-Bold" svg:font-family="FuturaT-Bold"/>
-		<style:font-face style:name="FuturaT-Book" svg:font-family="FuturaT-Book"/>
-		<style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol"/>
-		<style:font-face style:name="Helvetica1" svg:font-family="Helvetica" style:font-family-generic="swiss"/>
-		<style:font-face style:name="Avenir Book" svg:font-family="&apos;Avenir Book&apos;" style:font-pitch="variable"/>
-		<style:font-face style:name="Futura" svg:font-family="Futura" style:font-adornments="Condensed ExtraBold" style:font-pitch="variable"/>
-		<style:font-face style:name="Futura1" svg:font-family="Futura" style:font-adornments="Standard" style:font-pitch="variable"/>
-		<style:font-face style:name="Futura Bk BT" svg:font-family="&apos;Futura Bk BT&apos;" style:font-adornments="Book" style:font-pitch="variable"/>
-		<style:font-face style:name="Nunito Sans1" svg:font-family="&apos;Nunito Sans&apos;" style:font-pitch="variable"/>
-		<style:font-face style:name="Tinos1" svg:font-family="Tinos" style:font-pitch="variable"/>
 		<style:font-face style:name="Nunito Sans" svg:font-family="&apos;Nunito Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
-		<style:font-face style:name="Tinos" svg:font-family="Tinos" style:font-family-generic="roman" style:font-pitch="variable"/>
-		<style:font-face style:name="Arimo" svg:font-family="Arimo" style:font-family-generic="swiss" style:font-pitch="variable"/>
-		<style:font-face style:name="Helvetica" svg:font-family="Helvetica" style:font-family-generic="system" style:font-pitch="variable"/>
-		<style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
 	</office:font-face-decls>
 	<office:automatic-styles>
 		<style:style style:name="Table1" style:family="table">
@@ -37,293 +20,35 @@
 		<style:style style:name="Table1.7" style:family="table-row">
 			<style:table-row-properties fo:keep-together="always"/>
 		</style:style>
-		<style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
-			<loext:graphic-properties draw:fill="none"/>
-			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm" style:auto-text-indent="false" fo:background-color="transparent">
-				<style:tab-stops>
-					<style:tab-stop style:position="0.609cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="11pt" fo:font-style="normal" fo:font-weight="normal" officeooo:paragraph-rsid="00209aec" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="11pt"/>
+		<style:style style:name="P1" style:family="paragraph" style:parent-style-name="Text_20_body">
+			<style:text-properties style:font-name="Nunito Sans" fo:font-size="10pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 		</style:style>
-		<style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
-			<loext:graphic-properties draw:fill="none"/>
-			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm" style:auto-text-indent="false" style:page-number="auto" fo:break-before="column" fo:background-color="transparent">
-				<style:tab-stops>
-					<style:tab-stop style:position="0.609cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="11pt" fo:font-style="normal" fo:font-weight="normal" officeooo:paragraph-rsid="00209aec" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="11pt"/>
+		<style:style style:name="P2" style:family="paragraph" style:parent-style-name="First_20_paragraph">
+			<style:text-properties style:font-name="Nunito Sans" fo:font-size="10pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 		</style:style>
-		<style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
-			<style:paragraph-properties>
-				<style:tab-stops>
-					<style:tab-stop style:position="0.609cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="11pt" fo:font-style="normal" fo:font-weight="bold" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="9pt" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal"/>
-		</style:style>
-		<style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
-			<style:text-properties officeooo:paragraph-rsid="00209aec"/>
-		</style:style>
-		<style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
-			<style:paragraph-properties style:writing-mode="lr-tb"/>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
-			<style:text-properties fo:color="#005c5e" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="00186762" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="10pt" officeooo:rsid="00186762" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P10" style:family="paragraph" style:parent-style-name="First_20_paragraph">
-			<style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="10pt" officeooo:rsid="00186762" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="10pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:text-properties officeooo:paragraph-rsid="001d062a"/>
-		</style:style>
-		<style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" style:writing-mode="lr-tb"/>
-			<style:text-properties officeooo:paragraph-rsid="0025879b"/>
-		</style:style>
-		<style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%" fo:keep-with-next="auto"/>
-			<style:text-properties officeooo:paragraph-rsid="001d062a"/>
-		</style:style>
-		<style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%"/>
-			<style:text-properties officeooo:paragraph-rsid="001d062a"/>
-		</style:style>
-		<style:style style:name="P18" style:family="paragraph" style:parent-style-name="First_20_paragraph" style:master-page-name="">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" style:page-number="auto" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P19" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-			<style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="10pt" officeooo:rsid="00186762" officeooo:paragraph-rsid="00186762" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P20" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-			<style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
-			<style:text-properties fo:color="#005c5e" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="00186762" officeooo:paragraph-rsid="00186762" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P21" style:family="paragraph" style:parent-style-name="First_20_paragraph">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="10pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P22" style:family="paragraph" style:parent-style-name="First_20_paragraph">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P23" style:family="paragraph" style:parent-style-name="First_20_paragraph">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" fo:font-weight="bold" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
-			<loext:graphic-properties draw:fill="none"/>
-			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm" style:auto-text-indent="false" fo:background-color="transparent">
-				<style:tab-stops>
-					<style:tab-stop style:position="0.609cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="11pt" fo:font-style="normal" fo:font-weight="bold" officeooo:paragraph-rsid="00209aec" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
-			<loext:graphic-properties draw:fill="none"/>
-			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-indent="-0.6cm" style:auto-text-indent="false" fo:background-color="transparent">
-				<style:tab-stops>
-					<style:tab-stop style:position="0.609cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="11pt" fo:font-style="normal" fo:font-weight="bold" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
-			<loext:graphic-properties draw:fill="none"/>
-			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-indent="-0.6cm" style:auto-text-indent="false" fo:background-color="transparent">
-				<style:tab-stops>
-					<style:tab-stop style:position="0.609cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#000000" style:font-name="Nunito Sans" fo:font-size="11pt" fo:font-style="normal" fo:font-weight="bold" officeooo:paragraph-rsid="00209aec" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P27" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="0025879b" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P28" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="0025879b" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P29" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P30" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P31" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="0025879b" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P32" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P33" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P34" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L3">
-			<loext:graphic-properties draw:fill-image-width="0cm" draw:fill-image-height="0cm"/>
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" style:shadow="none" fo:keep-with-next="auto" style:writing-mode="page">
-				<style:tab-stops/>
-			</style:paragraph-properties>
-			<style:text-properties officeooo:paragraph-rsid="001d062a"/>
-		</style:style>
-		<style:style style:name="P35" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L4">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L5">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P37" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L6">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" style:writing-mode="lr-tb"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:paragraph-rsid="001d062a" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="P38" style:family="paragraph" style:parent-style-name="Heading_20_2" style:master-page-name="">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%" style:page-number="auto" fo:keep-with-next="auto"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="12pt" fo:font-style="normal" officeooo:paragraph-rsid="001d062a" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-		</style:style>
-		<style:style style:name="P39" style:family="paragraph" style:parent-style-name="Heading_20_2">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%" fo:keep-with-next="auto"/>
-			<style:text-properties officeooo:paragraph-rsid="00209aec"/>
-		</style:style>
-		<style:style style:name="P40" style:family="paragraph" style:parent-style-name="Heading_20_2">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="12pt" fo:font-style="normal" officeooo:paragraph-rsid="001d062a" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-		</style:style>
-		<style:style style:name="P41" style:family="paragraph" style:parent-style-name="Heading_20_2">
+		<style:style style:name="H1" style:family="paragraph" style:parent-style-name="Heading_20_1">
 			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%" fo:break-before="column" fo:keep-with-next="auto"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="12pt" fo:font-style="normal" officeooo:paragraph-rsid="001d062a" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+			<style:text-properties style:font-name="Nunito Sans" fo:font-size="14pt" fo:font-style="normal" officeooo:paragraph-rsid="001d062a" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal"/>
 		</style:style>
-		<style:style style:name="P42" style:family="paragraph" style:parent-style-name="Heading_20_2">
+		<style:style style:name="H2" style:family="paragraph" style:parent-style-name="Heading_20_2">
 			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" fo:break-before="column" style:writing-mode="page"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="12pt" fo:font-style="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+			<style:text-properties style:font-name="Nunito Sans" fo:font-size="12pt" fo:font-style="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
 		</style:style>
-		<style:style style:name="P43" style:family="paragraph" style:parent-style-name="Heading_20_2">
-			<style:paragraph-properties fo:break-before="column"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="12pt" fo:font-style="normal" officeooo:paragraph-rsid="001d062a" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+		<style:style style:name="H2b" style:family="paragraph" style:parent-style-name="Heading_20_2">
+			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" style:writing-mode="page"/>
+			<style:text-properties style:font-name="Nunito Sans" fo:font-size="12pt" fo:font-style="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
 		</style:style>
-		<style:style style:name="P44" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:writing-mode="page"/>
-			<style:text-properties fo:color="#005c5e" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="001d3f7f" officeooo:paragraph-rsid="001d3f7f" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="P45" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" loext:contextual-spacing="false" fo:line-height="100%" fo:break-before="column" fo:keep-with-next="auto"/>
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="14pt" fo:font-style="normal" officeooo:paragraph-rsid="001d062a" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal"/>
-		</style:style>
-		<style:style style:name="P46" style:family="paragraph">
-			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm">
-				<style:tab-stops>
-					<style:tab-stop style:position="0cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-		</style:style>
-		<style:style style:name="P47" style:family="paragraph">
-			<loext:graphic-properties draw:fill="bitmap" draw:fill-color="#ffffff" draw:fill-image-name="_32_" style:repeat="stretch"/>
-			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm">
-				<style:tab-stops>
-					<style:tab-stop style:position="0cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P48" style:family="paragraph">
-			<loext:graphic-properties draw:fill="bitmap" draw:fill-color="#ffffff" draw:fill-image-name="_33_" style:repeat="stretch"/>
-			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm">
-				<style:tab-stops>
-					<style:tab-stop style:position="0cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P49" style:family="paragraph">
-			<loext:graphic-properties draw:fill="bitmap" draw:fill-color="#ffffff" draw:fill-image-name="_34_" style:repeat="stretch"/>
-			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm">
-				<style:tab-stops>
-					<style:tab-stop style:position="0cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="P50" style:family="paragraph">
-			<loext:graphic-properties draw:fill="bitmap" draw:fill-color="#ffffff" draw:fill-image-name="_31_" style:repeat="stretch"/>
-			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm">
-				<style:tab-stops>
-					<style:tab-stop style:position="0cm"/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-			<style:text-properties fo:color="#ffffff" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="T1" style:family="text">
-			<style:text-properties style:use-window-font-color="true" style:font-name="Futura Bk BT1" officeooo:rsid="0014cd08"/>
-		</style:style>
-		<style:style style:name="T2" style:family="text">
-			<style:text-properties style:use-window-font-color="true" style:font-name="Nunito Sans1" fo:font-size="10pt" officeooo:rsid="0014cd08" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="T3" style:family="text">
-			<style:text-properties style:use-window-font-color="true" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0014cd08" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="T4" style:family="text">
-			<style:text-properties style:use-window-font-color="true" style:font-name="Nunito Sans1" fo:font-size="9pt" officeooo:rsid="0014cd08" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-		</style:style>
-		<style:style style:name="T5" style:family="text">
+		<style:style style:name="Bold" style:family="text">
 			<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
 		</style:style>
-		<style:style style:name="T6" style:family="text">
-			<style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+		<style:style style:name="Primary" style:family="text">
+			<style:text-properties fo:color="#005c5e" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
 		</style:style>
-		<style:style style:name="T7" style:family="text">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+		<style:style style:name="Box" style:family="text">
+			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 		</style:style>
-		<style:style style:name="T8" style:family="text">
-			<style:text-properties style:font-name="Nunito Sans1" fo:font-size="9pt" fo:font-weight="bold" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="T9" style:family="text">
-			<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-		</style:style>
-		<style:style style:name="T10" style:family="text">
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:font-weight="bold" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="T11" style:family="text">
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
-		</style:style>
-		<style:style style:name="T12" style:family="text">
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
-		</style:style>
-		<style:style style:name="T13" style:family="text">
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="10pt" fo:text-shadow="none" fo:font-weight="bold" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
-		</style:style>
-		<style:style style:name="T14" style:family="text">
-			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans1" fo:font-size="9pt" fo:text-shadow="none" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+		<style:style style:name="BoxBold" style:family="text">
+			<style:text-properties fo:color="#ffffff" style:font-name="Nunito Sans" fo:font-size="10pt" fo:font-weight="bold" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
 		</style:style>
 		<style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
 			<style:graphic-properties style:run-through="background" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="page" style:horizontal-pos="from-left" style:horizontal-rel="page" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -346,233 +71,8 @@
 		<text:list-style style:name="L1">
 			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5cm" fo:text-indent="-0.5cm" fo:margin-left="0.5cm"/>
 				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-		</text:list-style>
-		<text:list-style style:name="L2">
-			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.499cm" fo:text-indent="-0.499cm" fo:margin-left="0.499cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
-				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
-				</style:list-level-properties>
-			</text:list-level-style-bullet>
-		</text:list-style>
-		<text:list-style style:name="L3">
-			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:min-label-width="0.499cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="1.905cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="3.175cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="4.445cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="5.715cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="6.35cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-		</text:list-style>
-		<text:list-style style:name="L4">
-			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:min-label-width="0.499cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="1.905cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="3.175cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="4.445cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="5.715cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="6.35cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-		</text:list-style>
-		<text:list-style style:name="L5">
-			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:min-label-width="0.499cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="1.905cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="3.175cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="4.445cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="5.715cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="6.35cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-		</text:list-style>
-		<text:list-style style:name="L6">
-			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:min-label-width="0.499cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="1.905cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="3.175cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="4.445cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="‣">
-				<style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="⁃">
-				<style:list-level-properties text:space-before="5.715cm" text:min-label-width="0.635cm"/>
-			</text:list-level-style-bullet>
-			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
-				<style:list-level-properties text:space-before="6.35cm" text:min-label-width="0.635cm"/>
 			</text:list-level-style-bullet>
 		</text:list-style>
 		<style:style style:name="gr1" style:family="graphic">
@@ -590,13 +90,6 @@
 	</office:automatic-styles>
 	<office:body>
 		<office:text text:use-soft-page-breaks="true">
-			<office:forms form:automatic-focus="false" form:apply-design-mode="false">
-				<form:form form:name="Formular" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="" xlink:href="" xlink:type="simple">
-					<form:properties>
-						<form:property form:property-name="PropertyChangeNotificationEnabled" office:value-type="boolean" office:boolean-value="true"/>
-					</form:properties>
-				</form:form>
-			</office:forms>
 			<text:sequence-decls>
 				<text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
 				<text:sequence-decl text:display-outline-level="0" text:name="Table"/>
@@ -627,133 +120,112 @@
 			</draw:frame>
 			<draw:frame text:anchor-type="page" text:anchor-page-number="2" draw:z-index="6" draw:name="Shape2" draw:style-name="gr1" draw:text-style-name="P47" svg:width="9.718cm" svg:height="4.573cm" svg:x="0cm" svg:y="13.82cm">
 				<draw:text-box>
-					<text:p text:style-name="P46">
-						<text:span text:style-name="T10">Beratungszeiten</text:span>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="BoxBold">Beratungszeiten</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T11">Montag, Dienstag, Donnerstag und Freitag</text:span>
+						<text:span text:style-name="Box">Montag, Dienstag, Donnerstag und Freitag</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T11">immer von 9:00 bis 12:00 Uhr</text:span>
+						<text:span text:style-name="Box">immer von 9:00 bis 12:00 Uhr</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T11"/>
-					</text:p>
-					<text:p>
-						<text:span text:style-name="T11">Sie können sich ab 8:30 Uhr bei uns im Büro zur </text:span><text:span text:style-name="T11">Beratung anmelden. Bei Fragen rufen Sie uns an: 030 / </text:span><text:span text:style-name="T11">614 94 00</text:span>
+						<text:span text:style-name="Box">Sie können sich ab 8:30 Uhr bei uns im Büro zur </text:span><text:span text:style-name="Box">Beratung anmelden. Bei Fragen rufen Sie uns an: 030 / </text:span><text:span text:style-name="Box">614 94 00</text:span>
 					</text:p>
 				</draw:text-box>
 			</draw:frame>
 			<draw:frame text:anchor-type="page" text:anchor-page-number="2" draw:z-index="7" draw:name="Shape2" draw:style-name="gr2" draw:text-style-name="P48" svg:width="9.974cm" svg:height="5.054cm" svg:x="9.717cm" svg:y="12.243cm">
 				<draw:text-box>
-					<text:p text:style-name="P46">
-						<text:span text:style-name="T10">Sprechzeiten und Anmeldung</text:span>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="BoxBold">Sprechzeiten und Anmeldung</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T12">Ohne Anmeldung: jeden Montag von 9:00 bis 11:00 Uhr</text:span>
+						<text:span text:style-name="Box">Ohne Anmeldung: jeden Montag von 9:00 bis 11:00 Uhr</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T12"/>
+						<text:span text:style-name="Box">Oder Sie machen einen Termin bei uns.</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T12">Oder Sie machen einen Termin bei uns.</text:span>
+						<text:span text:style-name="Box">Schreiben Sie uns dafür eine E-Mail:</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T12">Schreiben Sie uns dafür eine E-Mail:</text:span>
+						<text:span text:style-name="Box">psb@kub-berlin.org.</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T12">psb@kub-berlin.org.</text:span>
-					</text:p>
-					<text:p>
-						<text:span text:style-name="T12">Oder rufen Sie uns an: 030 / 614 94 00</text:span>
+						<text:span text:style-name="Box">Oder rufen Sie uns an: 030 / 614 94 00</text:span>
 					</text:p>
 				</draw:text-box>
 			</draw:frame>
 			<draw:frame text:anchor-type="page" text:anchor-page-number="2" draw:z-index="8" draw:name="Shape2" draw:style-name="gr3" draw:text-style-name="P49" svg:width="9.998cm" svg:height="3.61cm" svg:x="19.701cm" svg:y="16.768cm">
 				<draw:text-box>
-					<text:p text:style-name="P46">
-						<text:span text:style-name="T10">Anmeldung</text:span>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="BoxBold">Anmeldung</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T11">Wenn Sie eine Beratung brauchen:</text:span>
+						<text:span text:style-name="Box">Wenn Sie eine Beratung brauchen:</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T11">Rufen Sie uns bitte an: 030 / 614 94 00</text:span>
+						<text:span text:style-name="Box">Rufen Sie uns bitte an: 030 / 614 94 00</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T11">Oder schreiben Sie uns eine E-Mail: frauenberatung@kub-berlin.org</text:span>
+						<text:span text:style-name="Box">Oder schreiben Sie uns eine E-Mail: frauenberatung@kub-berlin.org</text:span>
 					</text:p>
 				</draw:text-box>
 			</draw:frame>
 			<draw:frame text:anchor-type="page" text:anchor-page-number="1" draw:z-index="9" draw:name="Shape2" draw:style-name="gr4" draw:text-style-name="P50" svg:width="9.718cm" svg:height="3.419cm" svg:x="0cm" svg:y="16.981cm">
 				<draw:text-box>
-					<text:p text:style-name="P46">
-						<text:span text:style-name="T13">Anmeldung</text:span>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="BoxBold">Anmeldung</text:span>
 					</text:p>
 					<text:p>
-						<text:span text:style-name="T14">Wir helfen dir einmal im Monat.</text:span>
-						<text:span text:style-name="T14">
-							<text:line-break/>
-						</text:span>
-						<text:span text:style-name="T14">Du kommst zu uns in die KuB.</text:span>
-						<text:span text:style-name="T14">
-							<text:line-break/>
-						</text:span>
-						<text:span text:style-name="T14">Der Tag ist immer der erste Freitag im Monat.</text:span>
-						<text:span text:style-name="T14">
-							<text:line-break/>
-						</text:span>
-						<text:span text:style-name="T14">Die Uhrzeit ist 15:30 Uhr.</text:span>
+						<text:span text:style-name="Box">Wir helfen dir einmal im Monat.</text:span><text:line-break/>
+						<text:span text:style-name="Box">Du kommst zu uns in die KuB.</text:span><text:line-break/>
+						<text:span text:style-name="Box">Der Tag ist immer der erste Freitag im Monat.</text:span><text:line-break/>
+						<text:span text:style-name="Box">Die Uhrzeit ist 15:30 Uhr.</text:span>
 					</text:p>
 				</draw:text-box>
 			</draw:frame>
 			<text:section text:style-name="Sect1" text:name="PSB-Titel">
-				<text:h text:style-name="P38" text:outline-level="2">Deutsch lernen</text:h><text:p text:style-name="P21">Wir bieten kostenlose Deutschkurse an.</text:p><text:p text:style-name="P11">Es gibt mehrere Kurse:</text:p>
-				<text:p text:style-name="P11">
-					<text:span text:style-name="T5">Alphabetisierung:</text:span> Du lernst lesen und schreiben. Das ist dein 1. Deutsch-Kurs.
+				<text:h text:style-name="H2" text:outline-level="2">Deutsch lernen</text:h>
+				<text:p text:style-name="P1">
+					Wir bieten kostenlose Deutschkurse an.<text:line-break/>
+					Es gibt mehrere Kurse:
 				</text:p>
-				<text:p text:style-name="P11">
-					<text:span text:style-name="T5">A 1.1:</text:span> In diesem Kurs für neu Beginnende kannst du schon lesen und schreiben. Du sprichst Deutsch noch gar nicht. Du lernst hier Deutsch sprechen und verstehen. Das ist dein 1. Deutsch-Kurs.<text:line-break/>
-					<text:span text:style-name="T5">A 1.2:</text:span> Du sprichst Deutsch ein bisschen. Das ist dein 2. Deutsch-Kurs.<text:line-break/>
-					<text:span text:style-name="T5">A 2.1:</text:span> Du sprichst ein bisschen Deutsch. Das ist dein 3. Kurs.<text:line-break/>
-					<text:span text:style-name="T5">A 2.2:</text:span> Du sprichst Deutsch ganz gut. Das ist dein 4. Kurs.<text:line-break/>
-					<text:span text:style-name="T5">B 1:</text:span> Dein 5., 6. oder 7. Deutsch-Kurs.<text:line-break/>
-					<text:span text:style-name="T5">B 2:</text:span> Du hast keine Probleme im Alltag. Mit B2 darfst du an einer Universität studieren.
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">Alphabetisierung:</text:span> Du lernst lesen und schreiben. Das ist dein 1. Deutsch-Kurs.
 				</text:p>
-				<text:p text:style-name="P11">
-					<text:span text:style-name="T5">Konversations-Kurs:</text:span> Es ist auch ein Kurs zum Sprechen da. Du übst hier vor allem, Deutsch sprechen.
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">A 1.1:</text:span> In diesem Kurs für neu Beginnende kannst du schon lesen und schreiben. Du sprichst Deutsch noch gar nicht. Du lernst hier Deutsch sprechen und verstehen. Das ist dein 1. Deutsch-Kurs.<text:line-break/>
+					<text:span text:style-name="Bold">A 1.2:</text:span> Du sprichst Deutsch ein bisschen. Das ist dein 2. Deutsch-Kurs.<text:line-break/>
+					<text:span text:style-name="Bold">A 2.1:</text:span> Du sprichst ein bisschen Deutsch. Das ist dein 3. Kurs.<text:line-break/>
+					<text:span text:style-name="Bold">A 2.2:</text:span> Du sprichst Deutsch ganz gut. Das ist dein 4. Kurs.<text:line-break/>
+					<text:span text:style-name="Bold">B 1:</text:span> Dein 5., 6. oder 7. Deutsch-Kurs.<text:line-break/>
+					<text:span text:style-name="Bold">B 2:</text:span> Du hast keine Probleme im Alltag. Mit B2 darfst du an einer Universität studieren.
 				</text:p>
-				<text:p text:style-name="P16">
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T3">Mutter-Kind-Kurs:</text:span>
-					</text:span>
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T2">Du bist Mutter von einem kleinen Kind? Im Mutter-Kind-Kurs lernst du Deutsch. Wir kümmern uns um dein Kind, wenn du im Deutsch-Kurs bist. Für diesen Kurs musst du nicht zur Anmeldung kommen.</text:span>
-					</text:span>
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">Konversations-Kurs:</text:span> Es ist auch ein Kurs zum Sprechen da. Du übst hier vor allem, Deutsch sprechen.
 				</text:p>
-				<text:p text:style-name="P17">
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T3">Informationen:</text:span>
-					</text:span>
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T2">
-							<text:line-break/>
-							Ein Kurs geht 6 Monate.<text:line-break/>
-							Alle Kurse gibt es pro Woche 1-mal, 2-mal oder 3-mal.
-						</text:span>
-					</text:span>
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">Mutter-Kind-Kurs:</text:span> Du bist Mutter von einem kleinen Kind? Im Mutter-Kind-Kurs lernst du Deutsch. Wir kümmern uns um dein Kind, wenn du im Deutsch-Kurs bist. Für diesen Kurs musst du nicht zur Anmeldung kommen.
 				</text:p>
-				<text:h text:style-name="P42" text:outline-level="2">Kontakt</text:h>
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">Informationen:</text:span><text:line-break/>
+					Ein Kurs geht 6 Monate.<text:line-break/>
+					Alle Kurse gibt es pro Woche 1-mal, 2-mal oder 3-mal.
+				</text:p>
+				<text:h text:style-name="H1" text:outline-level="1">Kontakt</text:h>
 				<table:table table:name="Table1" table:style-name="Table1">
 					<table:table-column table:style-name="Table1.A"/>
 					<table:table-column table:style-name="Table1.B"/>
 					<table:table-row>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:h text:style-name="P44" text:outline-level="1">KuB</text:h>
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">KuB</text:span>
+							</text:p>
 						</table:table-cell>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P10">
-								<text:span text:style-name="T5">Kontakt und Beratungstelle für Flüchtlinge und Migrant_innen e.V.</text:span><text:line-break/>
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Bold">Kontakt und Beratungstelle für Flüchtlinge und Migrant_innen e.V.</text:span><text:line-break/>
 								Oranienstr. 159<text:line-break/>
 								10969 Berlin
 							</text:p>
@@ -761,55 +233,62 @@
 					</table:table-row>
 					<table:table-row>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P7">Telefon</text:p>
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">Telefon</text:span>
+							</text:p>
 						</table:table-cell>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P19">030 / 614 94 00</text:p>
-						</table:table-cell>
-					</table:table-row>
-					<table:table-row>
-						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P20">Fax</text:p>
-						</table:table-cell>
-						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P19">030 / 615 45 34</text:p>
+							<text:p text:style-name="P1">030 / 614 94 00</text:p>
 						</table:table-cell>
 					</table:table-row>
 					<table:table-row>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P20">E-Mail</text:p>
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">Fax</text:span>
+							</text:p>
 						</table:table-cell>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P19">kontakt@kub-berlin.org</text:p>
-						</table:table-cell>
-					</table:table-row>
-					<table:table-row>
-						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P20">Internet</text:p>
-						</table:table-cell>
-						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P19">www.kub-berlin.org</text:p>
+							<text:p text:style-name="P1">030 / 615 45 34</text:p>
 						</table:table-cell>
 					</table:table-row>
 					<table:table-row>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P20">Facebook</text:p>
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">E-Mail</text:span>
+							</text:p>
 						</table:table-cell>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P19">www.facebook.com/KuBFM</text:p>
+							<text:p text:style-name="P1">kontakt@kub-berlin.org</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row>
+						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">Internet</text:span>
+							</text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
+							<text:p text:style-name="P1">www.kub-berlin.org</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row>
+						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">Facebook</text:span>
+							</text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
+							<text:p text:style-name="P1">www.facebook.com/KuBFM</text:p>
 						</table:table-cell>
 					</table:table-row>
 					<table:table-row table:style-name="Table1.7">
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P7">
-								<draw:frame draw:style-name="fr4" draw:name="Image3" text:anchor-type="paragraph" svg:x="-0.025cm" svg:y="3.948cm" svg:width="8.562cm" svg:height="7.911cm" draw:z-index="10">
-									<draw:image xlink:href="Pictures/1000000000000428000003D728BFD3AD6B9C4AE7.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
-								</draw:frame>
-								Bürozeiten
+							<text:p text:style-name="P1">
+								<text:span text:style-name="Primary">Bürozeiten</text:span>
 							</text:p>
 						</table:table-cell>
 						<table:table-cell table:style-name="Table1.A1" office:value-type="string">
-							<text:p text:style-name="P8">
+							<text:p text:style-name="P1">
 								Das Büro ist in der Regel offen:<text:line-break/>
 								Montag, Dienstag, Donnerstag und Freitag<text:line-break/>
 								von 9:00 bis 17:00 Uhr und<text:line-break/>
@@ -818,175 +297,163 @@
 						</table:table-cell>
 					</table:table-row>
 				</table:table>
-				<text:p text:style-name="P2">
+				<text:p text:style-name="P1">
+					<draw:frame draw:style-name="fr4" draw:name="Image3" text:anchor-type="paragraph" svg:x="-0.025cm" svg:y="3.948cm" svg:width="8.562cm" svg:height="7.911cm" draw:z-index="10">
+						<draw:image xlink:href="Pictures/1000000000000428000003D728BFD3AD6B9C4AE7.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+					</draw:frame>
+				</text:p>
+				<text:p text:style-name="P1">
 					<draw:frame draw:style-name="fr4" draw:name="Image5" text:anchor-type="paragraph" svg:x="0cm" svg:y="0.45cm" svg:width="9.001cm" svg:height="12.755cm" draw:z-index="11">
 						<draw:image xlink:href="Pictures/1000020100000432000005F2277F149DB469C3E2.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
 					</draw:frame>
 				</text:p>
-				<text:p text:style-name="P1"/>
-				<text:p text:style-name="P1"/>
-				<text:p text:style-name="P1"/>
 				<text:list xml:id="list6533296043094237197" text:style-name="L1">
 					<text:list-item>
-						<text:p text:style-name="P24">Beratung zu Asyl und Aufenthalt</text:p>
+						<text:p text:style-name="P1">Beratung zu Asyl und Aufenthalt</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P25">Unterstützung durch Gespräche</text:p>
+						<text:p text:style-name="P1">Unterstützung durch Gespräche</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P26">Beratung für geflüchtete Frauen*</text:p>
+						<text:p text:style-name="P1">Beratung für geflüchtete Frauen*</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P26">Deutschkurse</text:p>
+						<text:p text:style-name="P1">Deutschkurse</text:p>
 					</text:list-item>
 				</text:list>
-				<text:p text:style-name="P3">
+				<text:p text:style-name="P1">
 					<text:tab/>
-					<text:span text:style-name="T9">und weitere Angebote.</text:span>
+					und weitere Angebote.
 				</text:p>
-				<text:p text:style-name="P4"/>
-				<text:p text:style-name="P6">Alle Angebote der KuB sind kostenlos</text:p><text:p text:style-name="P5"/>
-				<text:h text:style-name="P39" text:outline-level="2">
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T1"/>
-					</text:span>
-				</text:h>
-				<text:h text:style-name="P45" text:outline-level="1">
-					<text:soft-page-break/>
-					ANGEBOTE
-				</text:h>
-				<text:h text:style-name="P40" text:outline-level="2">Beratung zu Asyl und Aufenthalt</text:h><text:p text:style-name="P18">Wir beraten Sie zu Asyl- und Aufenthaltsrecht.</text:p>
-				<text:p text:style-name="P12">
-					<text:span text:style-name="T5">Wir beraten auf verschiedenen Sprachen</text:span>, zum Beispiel Arabisch, Deutsch, Englisch, Italienisch, Kurdisch, Spanisch, Dari, Farsi, Französisch, und so weiter.
+				<text:p text:style-name="P1">Alle Angebote der KuB sind kostenlos</text:p><text:p text:style-name="P1"/>
+				<text:soft-page-break/>
+				<text:h text:style-name="H1" text:outline-level="1">Angebote</text:h>
+				<text:h text:style-name="H2b" text:outline-level="2">Beratung zu Asyl und Aufenthalt</text:h>
+				<text:p text:style-name="P1">Wir beraten Sie zu Asyl- und Aufenthaltsrecht.</text:p>
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">Wir beraten auf verschiedenen Sprachen</text:span>, zum Beispiel Arabisch, Deutsch, Englisch, Italienisch, Kurdisch, Spanisch, Dari, Farsi, Französisch, und so weiter.
 				</text:p>
-				<text:p text:style-name="P9">
-					Wenn Sie eine*<text:span text:style-name="T6">n Sprachmittler*</text:span>in bei der Beratung dabei haben wollen, rufen Sie bitte vorher bei uns an.
+				<text:p text:style-name="P1">
+					Wenn Sie eine*n Sprachmittler*in bei der Beratung dabei haben wollen, rufen Sie bitte vorher bei uns an.
 				</text:p>
-				<text:p text:style-name="P15">Kommen Sie bitte persönlich in die KuB.</text:p><text:p text:style-name="P12">Wir beraten nicht am Telefon und nicht per E-Mail.</text:p>
-				<text:p text:style-name="P14">
-					<text:span text:style-name="T8">Bitte bringen Sie alle Papiere mit</text:span><text:span text:style-name="T7">, die für die Beratung wichtig sind. Zum Beispiel:</text:span>
+				<text:p text:style-name="P1">Kommen Sie bitte persönlich in die KuB.</text:p>
+				<text:p text:style-name="P1">Wir beraten nicht am Telefon und nicht per E-Mail.</text:p>
+				<text:p text:style-name="P1">
+					<text:span text:style-name="Bold">Bitte bringen Sie alle Papiere mit</text:span>, die für die Beratung wichtig sind. Zum Beispiel:
 				</text:p>
-				<text:list xml:id="list4356021203831336434" text:style-name="L2">
+				<text:list xml:id="list4356021203831336434" text:style-name="L1">
 					<text:list-item>
-						<text:p text:style-name="P28">Papiere vom Bundesamt für Migration und Flüchtlinge (BAMF), von der Ausländerbehörde, vom Jobcenter und so weiter.</text:p>
+						<text:p text:style-name="P1">Papiere vom Bundesamt für Migration und Flüchtlinge (BAMF), von der Ausländerbehörde, vom Jobcenter und so weiter.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P27">den Brief vom Rechtsanwalt/von der Rechtsanwältin.</text:p>
+						<text:p text:style-name="P1">den Brief vom Rechtsanwalt/von der Rechtsanwältin.</text:p>
 					</text:list-item>
 				</text:list>
-				<text:p text:style-name="P22">Zu uns kommen sehr viele Ratsuchende. Kommen Sie daher bitte früh am Morgen. Am besten schon um 8:30 Uhr.</text:p>
-				<text:list xml:id="list6138771530333179871" text:style-name="L3">
+				<text:p text:style-name="P1">Zu uns kommen sehr viele Ratsuchende. Kommen Sie daher bitte früh am Morgen. Am besten schon um 8:30 Uhr.</text:p>
+				<text:list xml:id="list6138771530333179871" text:style-name="L1">
 					<text:list-item>
-						<text:p text:style-name="P29">Bitte haben Sie Verständnis, wenn Sie warten müssen. Es kann einige Zeit dauern, bis wir Sie beraten können.</text:p>
+						<text:p text:style-name="P1">Bitte haben Sie Verständnis, wenn Sie warten müssen. Es kann einige Zeit dauern, bis wir Sie beraten können.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P34">
-							<text:span text:style-name="kub-weiß">
-								<text:span text:style-name="T4">Manchmal können wir Sie an dem Tag auch nicht beraten, weil so viele Ratsuchende zu uns kommen. Auch dafür bitten wir Sie um Verständnis.</text:span>
-							</text:span>
+						<text:p text:style-name="P1">
+							Manchmal können wir Sie an dem Tag auch nicht beraten, weil so viele Ratsuchende zu uns kommen. Auch dafür bitten wir Sie um Verständnis.
 						</text:p>
 					</text:list-item>
 				</text:list>
-				<text:h text:style-name="P43" text:outline-level="2">Unterstützung durch Gespräche</text:h><text:p text:style-name="P23">Sie können zu uns kommen:</text:p>
-				<text:list xml:id="list994431085375790145" text:style-name="L4">
+				<text:h text:style-name="H2" text:outline-level="2">Unterstützung durch Gespräche</text:h><text:p text:style-name="P1">Sie können zu uns kommen:</text:p>
+				<text:list xml:id="list994431085375790145" text:style-name="L1">
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie schlecht schlafen.</text:p>
+						<text:p text:style-name="P2">Wenn Sie schlecht schlafen.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie sehr oft traurig sind.</text:p>
+						<text:p text:style-name="P2">Wenn Sie sehr oft traurig sind.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie oft und große Angst haben.</text:p>
+						<text:p text:style-name="P2">Wenn Sie oft und große Angst haben.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie Probleme mit Ihrer Familie haben.</text:p>
+						<text:p text:style-name="P2">Wenn Sie Probleme mit Ihrer Familie haben.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie Probleme mit Ihren Freund*innen haben.</text:p>
+						<text:p text:style-name="P2">Wenn Sie Probleme mit Ihren Freund*innen haben.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie sich einsam fühlen.</text:p>
+						<text:p text:style-name="P2">Wenn Sie sich einsam fühlen.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P31">Wenn Sie sich hilflos fühlen.</text:p>
+						<text:p text:style-name="P2">Wenn Sie sich hilflos fühlen.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P31">Wenn Sie immer an schlimme Dinge denken müssen.</text:p>
+						<text:p text:style-name="P2">Wenn Sie immer an schlimme Dinge denken müssen.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie sich nicht konzentrieren können.</text:p>
+						<text:p text:style-name="P2">Wenn Sie sich nicht konzentrieren können.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn zu viele Gedanken in Ihrem Kopf sind.</text:p>
+						<text:p text:style-name="P2">Wenn zu viele Gedanken in Ihrem Kopf sind.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie nicht wissen, wie Sie weiterleben sollen.</text:p>
+						<text:p text:style-name="P2">Wenn Sie nicht wissen, wie Sie weiterleben sollen.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P30">Wenn Sie mit jemandem über Ihre Probleme reden wollen.</text:p>
+						<text:p text:style-name="P2">Wenn Sie mit jemandem über Ihre Probleme reden wollen.</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P35">Wenn Sie mit jemandem reden wollen.</text:p>
-					</text:list-item>
-				</text:list>
-				<text:p text:style-name="P22">Wir hören Ihnen zu. Wir suchen mit Ihnen zusammen Wege, wie Sie mit Ihren Problemen umgehen können.</text:p><text:p text:style-name="P15">Sie entscheiden, worüber wir reden.</text:p><text:p text:style-name="P15">Sie gehen keine Verpflichtungen ein.</text:p>
-				<text:p text:style-name="P13">
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T4">Versuchen Sie es einfach!</text:span>
-					</text:span>
-				</text:p>
-				<text:h text:style-name="P41" text:outline-level="2">Beratung für geflüchtete Frauen*</text:h>
-				<text:p text:style-name="P22">
-					Die Frauen*beratung der KuB richtet sich an <text:span text:style-name="T5">geflüchtete Frauen, die besonderen Schutz brauchen</text:span>.
-				</text:p>
-				<text:p text:style-name="P15">Das sind vor allem:</text:p>
-				<text:list xml:id="list5791448900076329614" text:style-name="L5">
-					<text:list-item>
-						<text:p text:style-name="P32">Schwangere</text:p>
-					</text:list-item>
-					<text:list-item>
-						<text:p text:style-name="P32">Alleinerziehende</text:p>
-					</text:list-item>
-					<text:list-item>
-						<text:p text:style-name="P32">Betroffene von häuslicher Gewalt</text:p>
-					</text:list-item>
-					<text:list-item>
-						<text:p text:style-name="P36">Betroffene von sexualisierter Gewalt</text:p>
+						<text:p text:style-name="P2">Wenn Sie mit jemandem reden wollen.</text:p>
 					</text:list-item>
 				</text:list>
-				<text:p text:style-name="P22">Wir beraten:</text:p>
-				<text:list xml:id="list276990488311838916" text:style-name="L6">
+				<text:p text:style-name="P1">Wir hören Ihnen zu. Wir suchen mit Ihnen zusammen Wege, wie Sie mit Ihren Problemen umgehen können.</text:p><text:p text:style-name="P1">Sie entscheiden, worüber wir reden.</text:p><text:p text:style-name="P1">Sie gehen keine Verpflichtungen ein.</text:p>
+				<text:p text:style-name="P1">
+					Versuchen Sie es einfach!
+				</text:p>
+				<text:h text:style-name="H2" text:outline-level="2">Beratung für geflüchtete Frauen*</text:h>
+				<text:p text:style-name="P1">
+					Die Frauen*beratung der KuB richtet sich an <text:span text:style-name="Bold">geflüchtete Frauen, die besonderen Schutz brauchen</text:span>.
+				</text:p>
+				<text:p text:style-name="P1">Das sind vor allem:</text:p>
+				<text:list xml:id="list5791448900076329614" text:style-name="L1">
 					<text:list-item>
-						<text:p text:style-name="P33">
-							bei <text:span text:style-name="T5">Fragen zum Aufenthaltsrecht, zum Asylrecht und zum Sozialrecht</text:span>
+						<text:p text:style-name="P1">Schwangere</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="P1">Alleinerziehende</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="P1">Betroffene von häuslicher Gewalt</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="P1">Betroffene von sexualisierter Gewalt</text:p>
+					</text:list-item>
+				</text:list>
+				<text:p text:style-name="P1">Wir beraten:</text:p>
+				<text:list xml:id="list276990488311838916" text:style-name="L1">
+					<text:list-item>
+						<text:p text:style-name="P1">
+							bei <text:span text:style-name="Bold">Fragen zum Aufenthaltsrecht, zum Asylrecht und zum Sozialrecht</text:span>
 						</text:p>
 					</text:list-item>
 					<text:list-item>
-						<text:p text:style-name="P37">
-							bei <text:span text:style-name="T5">psychischen und sozialen Problemen</text:span>
+						<text:p text:style-name="P1">
+							bei <text:span text:style-name="Bold">psychischen und sozialen Problemen</text:span>
 						</text:p>
 					</text:list-item>
 				</text:list>
-				<text:p text:style-name="P22">Wir unterstützen Sie in den Räumen der KuB.</text:p>
-				<text:p text:style-name="P12">
+				<text:p text:style-name="P1">Wir unterstützen Sie in den Räumen der KuB.</text:p>
+				<text:p text:style-name="P1">
 					Dafür schaffen wir eine geschützte Atmosphäre.<text:line-break/>
 					Gemeinsam erarbeiten wir Wege, wie Sie ihre Probleme lösen. Dabei beachten wir, was für Sie wichtig ist.<text:line-break/>
 					Unsere Beraterinnen sehen sich Ihre ganze Situation an und unterstützen Sie dann.<text:line-break/>
 					Außerdem helfen wir Ihnen bei den Lösungswegen.<text:line-break/>
-					Wir haben zum Beispiel Menschen, die Sie zu Ämtern, Ärzt*<text:span text:style-name="T6">innen und Rechtsanwält*</text:span>innen begleiten.
+					Wir haben zum Beispiel Menschen, die Sie zu Ämtern, Ärzt*innen und Rechtsanwält*innen begleiten.
 				</text:p>
-				<text:p text:style-name="P12">
+				<text:p text:style-name="P1">
 					Wir haben auch Sprachmittler*innen.<text:line-break/>
 					Diese Menschen übersetzen dann für Sie von Deutsch in Ihre Sprache und umgekehrt.
 				</text:p>
-				<text:p text:style-name="P12">Wenn Sie das wünschen, können wir Sie auch anonym beraten. Sie müssen uns dann nicht Ihren Namen nennen.</text:p>
-				<text:p text:style-name="P16">
-					<text:span text:style-name="kub-weiß">
-						<text:span text:style-name="T4">
-							Die KuB ist Teil von dem „Berliner Netzwerk für besonders schutzbedürftige Flüchtlinge“ (BNS).<text:line-break/>
-							In dem Netzwerk ist die KuB die Frauenfachstelle.
-						</text:span>
-					</text:span>
+				<text:p text:style-name="P1">Wenn Sie das wünschen, können wir Sie auch anonym beraten. Sie müssen uns dann nicht Ihren Namen nennen.</text:p>
+				<text:p text:style-name="P1">
+					Die KuB ist Teil von dem „Berliner Netzwerk für besonders schutzbedürftige Flüchtlinge“ (BNS).<text:line-break/>
+					In dem Netzwerk ist die KuB die Frauenfachstelle.
 				</text:p>
 			</text:section>
 		</office:text>

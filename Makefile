@@ -1,10 +1,17 @@
-.PHONY: vorlage.odt
-vorlage.odt:
-	rm -f $@
-	cd src && zip -r ../$@ *
+.PHONY: pdf
+pdf: ar.pdf de.pdf en.pdf es.pdf fa.pdf fr.pdf
+
+.PHONY: odt
+odt: ar.odt de.odt en.odt es.odt fa.odt fr.odt
 
 %.pdf: %.odt
 	lowriter --convert-to pdf $<
+
+%.odt: ../%.csv templates/content.xml template.py
+	python template.py templates/content.xml $< > src/content.xml
+	@rm -f $@
+	cd src && zip -r ../$@ *
+	@rm src/content.xml
 
 .PHONY: unp
 unp:

@@ -1,5 +1,5 @@
-.PHONY: vorlage.ott
-vorlage.ott:
+.PHONY: vorlage.odt
+vorlage.odt:
 	rm -f $@
 	cd src && zip -r ../$@ *
 

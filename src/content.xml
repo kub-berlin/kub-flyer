@@ -34,22 +34,22 @@
   <office:body>
     <office:text text:use-soft-page-breaks="true">
       <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="29.7cm" svg:height="21cm" draw:z-index="0">
-        <draw:image xlink:href="Pictures/100001A100000D3B0000095A0CD92075C98269A9.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        <draw:image xlink:href="Pictures/bg1.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="2" svg:x="0cm" svg:y="0cm" svg:width="29.7cm" svg:height="21cm" draw:z-index="0">
-        <draw:image xlink:href="Pictures/100001DA00000D3B0000095A52153FEC876C1978.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        <draw:image xlink:href="Pictures/bg2.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="1" svg:x="6.5cm" svg:y="0cm" svg:width="3.392cm" svg:height="3.392cm" draw:z-index="1">
-        <draw:image xlink:href="Pictures/10004847000034D7000034D70DE3D3D553809E4D.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        <draw:image xlink:href="Pictures/icon-deutschkurs.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="16.8cm" svg:y="0.944cm" svg:width="3.177cm" svg:height="3.177cm" draw:z-index="1">
-        <draw:image xlink:href="Pictures/10004687000034BC000034BC80BA90152286A2BB.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        <draw:image xlink:href="Pictures/icon-psb.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="26.5cm" svg:y="2.021cm" svg:width="2.732cm" svg:height="2.732cm" draw:z-index="1">
-        <draw:image xlink:href="Pictures/10008549000034D7000034D70D4C0F875627136F.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        <draw:image xlink:href="Pictures/icon-frauenberatung.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="7.2cm" svg:y="0cm" svg:width="2.743cm" svg:height="2.743cm" draw:z-index="1">
-        <draw:image xlink:href="Pictures/10002435000034D7000034D774B2F01D5413427B.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        <draw:image xlink:href="Pictures/icon-beratung.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <text:section text:style-name="Sect1" text:name="main">
         <text:h text:style-name="H2b">Deutsch lernen</text:h>
@@ -142,13 +142,13 @@
         </table:table>
         <text:p text:style-name="P2">
           <draw:frame text:anchor-type="paragraph" svg:width="9cm" svg:height="8.316cm" svg:y="0.5cm" draw:z-index="1">
-            <draw:image xlink:href="Pictures/1000000000000428000003D728BFD3AD6B9C4AE7.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+            <draw:image xlink:href="Pictures/map.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
           </draw:frame>
         </text:p>
 
         <text:p text:style-name="P1b">
           <draw:frame text:anchor-type="paragraph" svg:width="9cm" svg:height="12.754cm" draw:z-index="1">
-            <draw:image xlink:href="Pictures/1000020100000432000005F2277F149DB469C3E2.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+            <draw:image xlink:href="Pictures/front.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
           </draw:frame>
         </text:p>
         <text:list xml:id="list6533296043094237197" text:style-name="List_20_1">

@@ -7,11 +7,12 @@ odt: ar.odt de.odt en.odt es.odt fa.odt fr.odt
 %.pdf: %.odt
 	lowriter --convert-to pdf $<
 
-%.odt: ../%.csv templates/content.xml template.py
+%.odt: ../%.csv templates/content.xml templates/styles.xml template.py
 	python template.py templates/content.xml $< > src/content.xml
+	python template.py templates/styles.xml $< > src/styles.xml
 	@rm -f $@
 	cd src && zip -r ../$@ *
-	@rm src/content.xml
+	@rm src/content.xml src/styles.xml
 
 .PHONY: unp
 unp:

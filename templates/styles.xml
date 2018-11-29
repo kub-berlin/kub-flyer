@@ -5,8 +5,8 @@
   </office:font-face-decls>
   <office:styles>
     <style:default-style style:family="paragraph">
-      <style:text-properties style:font-name="Nunito Sans" fo:font-size="9pt" fo:language="de" fo:hyphenate="false"/>
-      <style:paragraph-properties fo:margin-bottom="0.4cm" fo:line-height="100%" style:tab-stop-distance="0.5cm"/>
+      <style:text-properties style:font-name="Nunito Sans" style:font-name-complex="Nunito Sans" fo:font-size="9pt" style:font-size-complex="9pt" fo:language="{{ de }}" fo:hyphenate="false"/>
+      <style:paragraph-properties fo:margin-bottom="0.4cm" fo:line-height="100%" style:tab-stop-distance="0.5cm" fo:text-align="{{ left }}"/>
     </style:default-style>
     <style:style style:name="P1b" style:display-name="Paragraph (with column break)" style:family="paragraph">
       <style:paragraph-properties fo:break-before="column"/>
@@ -17,17 +17,17 @@
 
     <style:style style:name="Heading" style:family="paragraph">
       <style:paragraph-properties fo:line-height="100%"/>
-      <style:text-properties fo:font-weight="bold"/>
+      <style:text-properties fo:font-weight="bold" style:font-weight-complex="bold"/>
     </style:style>
     <style:style style:name="H1" style:display-name="Heading 1" style:parent-style-name="Heading" style:family="paragraph" style:default-outline-level="1">
-      <style:text-properties fo:font-size="14pt" fo:text-transform="uppercase"/>
+      <style:text-properties fo:font-size="14pt" style:font-size-complex="14pt" fo:text-transform="uppercase"/>
     </style:style>
     <style:style style:name="H1b" style:display-name="Heading 1 (with column break)" style:family="paragraph" style:parent-style-name="H1">
       <style:paragraph-properties fo:break-before="column"/>
     </style:style>
     <style:style style:name="H2" style:display-name="Heading 2" style:parent-style-name="Heading" style:family="paragraph" style:default-outline-level="2">
       <style:paragraph-properties fo:border-bottom="0.05pt solid #000000"/>
-      <style:text-properties fo:font-size="12pt"/>
+      <style:text-properties fo:font-size="12pt" style:font-size-complex="12pt"/>
     </style:style>
     <style:style style:name="H2b" style:display-name="Heading 2 (with column break)" style:family="paragraph" style:parent-style-name="H2">
       <style:paragraph-properties fo:break-before="column"/>
@@ -42,16 +42,16 @@
     </text:list-style>
 
     <style:style style:name="Bold" style:family="text">
-      <style:text-properties fo:font-weight="bold"/>
+      <style:text-properties fo:font-weight="bold" style:font-weight-complex="bold"/>
     </style:style>
     <style:style style:name="Primary" style:family="text">
-      <style:text-properties fo:color="#005c5e" fo:font-weight="bold"/>
+      <style:text-properties fo:color="#005c5e" fo:font-weight="bold" style:font-weight-complex="bold"/>
     </style:style>
     <style:style style:name="Big" style:family="text">
-      <style:text-properties fo:font-weight="bold" fo:font-size="12pt"/>
+      <style:text-properties fo:font-weight="bold" style:font-weight-complex="bold" fo:font-size="12pt" style:font-size-complex="12pt"/>
     </style:style>
     <style:style style:name="Medium" style:family="text">
-      <style:text-properties fo:font-weight="bold" fo:font-size="10pt"/>
+      <style:text-properties fo:font-weight="bold" style:font-weight-complex="bold" fo:font-size="10pt" style:font-size-complex="10pt"/>
     </style:style>
 
     <draw:fill-image draw:name="_31_" draw:display-name="1" xlink:href="Pictures/box1.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
@@ -62,17 +62,17 @@
       <style:graphic-properties style:run-through="background" style:wrap="run-through"/>
     </style:style>
     <style:style style:name="Icon" style:family="graphic">
-      <style:graphic-properties style:run-through="foreground" style:wrap="parallel" style:wrap-contour="true" style:horizontal-rel="page-start-margin"/>
+      <style:graphic-properties style:run-through="foreground" style:wrap="parallel" style:wrap-contour="true" style:horizontal-rel="{{ page-start-margin }}"/>
     </style:style>
   </office:styles>
   <office:automatic-styles>
     <style:page-layout style:name="Mpm1">
-      <style:page-layout-properties fo:page-width="29.7cm" fo:page-height="21cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.5cm" style:writing-mode="lr-tb">
+      <style:page-layout-properties fo:page-width="29.7cm" fo:page-height="21cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.5cm" style:writing-mode="{{ lr }}">
         <style:columns fo:column-count="3">
           <!-- <style:column&#45;sep style:width="0.05pt" style:color="#000000" style:height="100%" style:style="solid"/> -->
-          <style:column style:rel-width="5217*" fo:start-indent="0cm" fo:end-indent="0.5cm"/>
+          <style:column style:rel-width="{{ 5217* }}" fo:start-indent="0cm" fo:end-indent="0.5cm"/>
           <style:column style:rel-width="5669*" fo:start-indent="0.5cm" fo:end-indent="0.5cm"/>
-          <style:column style:rel-width="5386*" fo:start-indent="0.5cm" fo:end-indent="0cm"/>
+          <style:column style:rel-width="{{ 5386* }}" fo:start-indent="0.5cm" fo:end-indent="0cm"/>
         </style:columns>
       </style:page-layout-properties>
     </style:page-layout>

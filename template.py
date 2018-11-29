@@ -57,6 +57,26 @@ def get_translation(path):
 	with open(path) as fh:
 		rows = csv.reader(fh)
 		translation = {row[0].strip(): apply_bold(row[1].strip()) for row in rows}
+
+	translation['de'] = os.path.splitext(os.path.basename(path))[0]
+
+	if translation['de'] in ['ar', 'fa']:
+		translation.update({
+			'lr': 'rl',
+			'page-start-margin': 'page-end-margin',
+			'5217*': '5386*',
+			'5386*': '5217*',
+			'left': 'right',
+		})
+	else:
+		translation.update({
+			'lr': 'lr',
+			'page-start-margin': 'page-start-margin',
+			'5217*': '5217*',
+			'5386*': '5386*',
+			'left': 'left',
+		})
+
 	return translation
 
 

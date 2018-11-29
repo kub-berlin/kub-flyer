@@ -15,7 +15,7 @@
       <style:text-properties fo:color="#ffffff"/>
     </style:style>
     <style:style style:name="BoxBold" style:family="text">
-      <style:text-properties fo:font-size="10pt" fo:color="#ffffff" fo:font-weight="bold"/>
+      <style:text-properties fo:font-size="10pt" style:font-size-complex="10pt" fo:color="#ffffff" fo:font-weight="bold" style:font-weight-complex="bold"/>
     </style:style>
 
     <style:style style:name="gr1" style:family="graphic">
@@ -88,7 +88,7 @@
               <text:p text:style-name="P2"><text:span text:style-name="Primary">KuB</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Bold">{{ Kontakt und Beratungstelle für Flüchtlinge und Migrant_innen e.V. }}</text:span><text:line-break/>Oranienstr. 159<text:line-break/>10969 Berlin</text:p>
+              <text:p text:style-name="P2"><text:span text:style-name="Bold">&#8296;{{ Kontakt und Beratungstelle für Flüchtlinge und Migrant_innen e.V. }}&#8297;</text:span><text:line-break/>Oranienstr. 159<text:line-break/>10969 Berlin</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
@@ -96,7 +96,7 @@
               <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ Telefon }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">030 / 614 94 00</text:p>
+              <text:p text:style-name="P2">&#8296;030 / 614 94 00&#8297;</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
@@ -104,7 +104,7 @@
               <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ Fax }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">030 / 615 45 34</text:p>
+              <text:p text:style-name="P2">&#8296;030 / 615 45 34&#8297;</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
@@ -200,7 +200,7 @@
               <text:p><text:span text:style-name="BoxBold">{{ Beratungszeiten }}</text:span></text:p>
               <text:p><text:span text:style-name="Box">{{ Montag, Dienstag, Donnerstag und Freitag }}</text:span></text:p>
               <text:p><text:span text:style-name="Box">{{ immer von 9:00 bis 12:00 Uhr }}</text:span><text:line-break/></text:p>
-              <text:p><text:span text:style-name="Box">{{ Sie können sich ab 8:30 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: 030 / 614 94 00 }}</text:span></text:p>
+              <text:p><text:span text:style-name="Box">{{ Sie können sich ab 8:30 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>
@@ -259,7 +259,7 @@
               <text:p><text:span text:style-name="Box">{{ Ohne Anmeldung: jeden Montag von 9:00 bis 11:00 Uhr }}</text:span><text:line-break/></text:p>
               <text:p><text:span text:style-name="Box">{{ Oder Sie machen einen Termin bei uns. }}</text:span></text:p>
               <text:p><text:span text:style-name="Box">{{ Schreiben Sie uns dafür eine E-Mail: }} psb@kub-berlin.org.</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Oder rufen Sie uns an: }} 030 / 614 94 00</text:span></text:p>
+              <text:p><text:span text:style-name="Box">{{ Oder rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>
@@ -306,7 +306,7 @@
             <draw:text-box>
               <text:p><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
               <text:p><text:span text:style-name="Box">{{ Wenn Sie eine Beratung brauchen: }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Rufen Sie uns bitte an: }} 030 / 614 94 00</text:span></text:p>
+              <text:p><text:span text:style-name="Box">{{ Rufen Sie uns bitte an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
               <text:p><text:span text:style-name="Box">{{ Oder schreiben Sie uns eine E-Mail: }} frauenberatung@kub-berlin.org</text:span></text:p>
             </draw:text-box>
           </draw:frame>

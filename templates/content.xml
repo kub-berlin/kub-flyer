@@ -45,7 +45,7 @@
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="16.8cm" svg:y="0.944cm" svg:width="3.177cm" svg:height="3.177cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-psb.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
-      <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="26.5cm" svg:y="2.021cm" svg:width="2.732cm" svg:height="2.732cm" draw:z-index="1">
+      <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="26.5cm" svg:y="2.8cm" svg:width="2.732cm" svg:height="2.732cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-frauenberatung.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="7.2cm" svg:y="0cm" svg:width="2.743cm" svg:height="2.743cm" draw:z-index="1">

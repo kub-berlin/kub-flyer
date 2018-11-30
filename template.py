@@ -67,6 +67,7 @@ def get_translation(path):
 			'5217*': '5386*',
 			'5386*': '5217*',
 			'left': 'right',
+			'none': 'translate(128,0) scale(-1,1)',
 		})
 	else:
 		translation.update({
@@ -75,6 +76,7 @@ def get_translation(path):
 			'5217*': '5217*',
 			'5386*': '5386*',
 			'left': 'left',
+			'none': 'none',
 		})
 
 	return translation

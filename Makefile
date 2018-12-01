@@ -7,7 +7,7 @@ odt: ar.odt de.odt en.odt es.odt fa.odt fr.odt
 %.pdf: %.odt
 	lowriter --convert-to pdf $<
 
-%.odt: ../%.csv templates/content.xml templates/styles.xml templates/Pictures/*.svg template.py
+%.odt: %.csv templates/content.xml templates/styles.xml templates/Pictures/*.svg template.py
 	python template.py templates/content.xml $< > src/content.xml
 	python template.py templates/styles.xml $< > src/styles.xml
 	python template.py templates/Pictures/bg1.svg $< > src/Pictures/bg1.svg

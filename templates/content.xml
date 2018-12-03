@@ -11,6 +11,9 @@
       <style:table-column-properties style:column-width="6.814cm"/>
     </style:style>
 
+    <style:style style:name="Box" style:family="paragraph">
+      <style:paragraph-properties style:writing-mode="page"/>
+    </style:style>
     <style:style style:name="Box" style:family="text">
       <style:text-properties fo:color="#ffffff"/>
     </style:style>
@@ -70,11 +73,11 @@
         <text:p>
           <draw:frame text:anchor-type="paragraph" draw:style-name="gr4" svg:width="9.7cm" svg:x="-0.5cm" svg:y="0.5cm">
             <draw:text-box>
-              <text:p><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Wir helfen dir einmal im Monat. }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Du kommst zu uns in die KuB. }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Der Tag ist immer der erste Freitag im Monat. }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Die Uhrzeit ist 15:30 Uhr. }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Wir helfen dir einmal im Monat. }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Du kommst zu uns in die KuB. }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Der Tag ist immer der erste Freitag im Monat. }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Die Uhrzeit ist 15:30 Uhr. }}</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>
@@ -197,10 +200,10 @@
         <text:p>
           <draw:frame text:anchor-type="paragraph" draw:style-name="gr1" svg:width="9.7cm" svg:x="-0.5cm" svg:y="0.5cm">
             <draw:text-box>
-              <text:p><text:span text:style-name="BoxBold">{{ Beratungszeiten }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Montag, Dienstag, Donnerstag und Freitag }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ immer von 9:00 bis 12:00 Uhr }}</text:span><text:line-break/></text:p>
-              <text:p><text:span text:style-name="Box">{{ Sie können sich ab 8:30 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Beratungszeiten }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Montag, Dienstag, Donnerstag und Freitag }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ immer von 9:00 bis 12:00 Uhr }}</text:span><text:line-break/></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Sie können sich ab 8:30 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>
@@ -255,11 +258,11 @@
         <text:p>
           <draw:frame text:anchor-type="paragraph" draw:style-name="gr2" svg:width="10cm" svg:x="-0.5cm" svg:y="0.5cm">
             <draw:text-box>
-              <text:p><text:span text:style-name="BoxBold">{{ Sprechzeiten und Anmeldung }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Ohne Anmeldung: jeden Montag von 9:00 bis 11:00 Uhr }}</text:span><text:line-break/></text:p>
-              <text:p><text:span text:style-name="Box">{{ Oder Sie machen einen Termin bei uns. }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Schreiben Sie uns dafür eine E-Mail: }} psb@kub-berlin.org.</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Oder rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Sprechzeiten und Anmeldung }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Ohne Anmeldung: jeden Montag von 9:00 bis 11:00 Uhr }}</text:span><text:line-break/></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Oder Sie machen einen Termin bei uns. }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Schreiben Sie uns dafür eine E-Mail: }} psb@kub-berlin.org.</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Oder rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>
@@ -304,10 +307,10 @@
         <text:p>
           <draw:frame text:anchor-type="paragraph" draw:style-name="gr3" svg:width="10cm" svg:x="-0.5cm" svg:y="0.5cm">
             <draw:text-box>
-              <text:p><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Wenn Sie eine Beratung brauchen: }}</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Rufen Sie uns bitte an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
-              <text:p><text:span text:style-name="Box">{{ Oder schreiben Sie uns eine E-Mail: }} frauenberatung@kub-berlin.org</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Wenn Sie eine Beratung brauchen: }}</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Rufen Sie uns bitte an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Oder schreiben Sie uns eine E-Mail: }} frauenberatung@kub-berlin.org</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>

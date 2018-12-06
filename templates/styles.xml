@@ -67,7 +67,7 @@
   </office:styles>
   <office:automatic-styles>
     <style:page-layout style:name="Mpm1">
-      <style:page-layout-properties fo:page-width="29.7cm" fo:page-height="21cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.5cm" style:writing-mode="{{ lr }}">
+      <style:page-layout-properties fo:page-width="29.9cm" fo:page-height="21.2cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.6cm" style:writing-mode="{{ lr }}">
         <style:columns fo:column-count="3">
           <!-- <style:column&#45;sep style:width="0.05pt" style:color="#000000" style:height="100%" style:style="solid"/> -->
           <style:column style:rel-width="{{ 5217* }}" fo:start-indent="0cm" fo:end-indent="0.5cm"/>

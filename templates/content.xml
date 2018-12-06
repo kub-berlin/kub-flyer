@@ -36,10 +36,10 @@
   </office:automatic-styles>
   <office:body>
     <office:text text:use-soft-page-breaks="true">
-      <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="29.7cm" svg:height="21cm" draw:z-index="0">
+      <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="29.9cm" svg:height="21.2cm" draw:z-index="0">
         <draw:image xlink:href="Pictures/bg1.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
-      <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="2" svg:x="0cm" svg:y="0cm" svg:width="29.7cm" svg:height="21cm" draw:z-index="0">
+      <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="2" svg:x="0cm" svg:y="0cm" svg:width="29.9cm" svg:height="21.2cm" draw:z-index="0">
         <draw:image xlink:href="Pictures/bg2.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="1" svg:x="6.5cm" svg:y="0cm" svg:width="3.392cm" svg:height="3.392cm" draw:z-index="1">

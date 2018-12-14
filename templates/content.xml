@@ -91,7 +91,7 @@
               <text:p text:style-name="P2"><text:span text:style-name="Primary">KuB</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Bold">&#8296;{{ Kontakt und Beratungstelle für Flüchtlinge und Migrant_innen e.V. }}&#8297;</text:span><text:line-break/>Oranienstr. 159<text:line-break/>10969 Berlin</text:p>
+              <text:p text:style-name="P2"><text:span text:style-name="Bold">&#8296;{{ Kontakt- und Beratungstelle für Flüchtlinge und Migrant_innen e.V. }}&#8297;</text:span><text:line-break/>Oranienstr. 159<text:line-break/>10969 Berlin</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>

@@ -45,13 +45,13 @@
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="1" svg:x="6.5cm" svg:y="0cm" svg:width="3.392cm" svg:height="3.392cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-deutschkurs.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
-      <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="16.8cm" svg:y="0.944cm" svg:width="3.177cm" svg:height="3.177cm" draw:z-index="1">
+      <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="17.1cm" svg:y="0.944cm" svg:width="3.177cm" svg:height="3.177cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-psb.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="26.5cm" svg:y="2.8cm" svg:width="2.732cm" svg:height="2.732cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-frauenberatung.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
-      <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="7.2cm" svg:y="0cm" svg:width="2.743cm" svg:height="2.743cm" draw:z-index="1">
+      <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="7.5cm" svg:y="0cm" svg:width="2.743cm" svg:height="2.743cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-beratung.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
       <text:section text:style-name="Sect1" text:name="main">
@@ -198,7 +198,7 @@
           </text:list-item>
         </text:list>
         <text:p>
-          <draw:frame text:anchor-type="paragraph" draw:style-name="gr1" svg:width="9.7cm" svg:x="-0.5cm" svg:y="0.5cm">
+          <draw:frame text:anchor-type="paragraph" draw:style-name="gr1" svg:width="10cm" svg:x="-0.5cm" svg:y="0.5cm">
             <draw:text-box>
               <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Beratungszeiten }}</text:span></text:p>
               <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Montag, Dienstag, Donnerstag und Freitag }}</text:span></text:p>
@@ -305,7 +305,7 @@
         <text:p text:style-name="P2">{{ Die KuB ist Teil von dem „Berliner Netzwerk für besonders schutzbedürftige Flüchtlinge“ (BNS). }}</text:p>
         <text:p>{{ In dem Netzwerk ist die KuB die Frauenfachstelle. }}</text:p>
         <text:p>
-          <draw:frame text:anchor-type="paragraph" draw:style-name="gr3" svg:width="10cm" svg:x="-0.5cm" svg:y="0.5cm">
+          <draw:frame text:anchor-type="paragraph" draw:style-name="gr3" svg:width="9.7cm" svg:x="-0.5cm" svg:y="0.5cm">
             <draw:text-box>
               <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
               <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Wenn Sie eine Beratung brauchen: }}</text:span></text:p>

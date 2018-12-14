@@ -67,6 +67,7 @@ def get_translation(path):
 			'5217*': '5386*',
 			'5386*': '5217*',
 			'left': 'right',
+			'start': 'end',
 			'none': 'translate(128,0) scale(-1,1)',
 		})
 	else:
@@ -76,6 +77,7 @@ def get_translation(path):
 			'5217*': '5217*',
 			'5386*': '5386*',
 			'left': 'left',
+			'start': 'start',
 			'none': 'none',
 		})
 

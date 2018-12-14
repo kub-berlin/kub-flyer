@@ -6,7 +6,7 @@
   <office:styles>
     <style:default-style style:family="paragraph">
       <style:text-properties style:font-name="Nunito Sans" style:font-name-complex="Nunito Sans" fo:font-size="9pt" style:font-size-complex="9pt" fo:language="{{ de }}" fo:hyphenate="false"/>
-      <style:paragraph-properties fo:margin-bottom="0.4cm" fo:line-height="100%" style:tab-stop-distance="0.5cm" fo:text-align="{{ left }}"/>
+      <style:paragraph-properties fo:margin-bottom="0.35cm" fo:line-height="100%" style:tab-stop-distance="0.5cm" fo:text-align="{{ left }}"/>
     </style:default-style>
     <style:style style:name="P1b" style:display-name="Paragraph (with column break)" style:family="paragraph">
       <style:paragraph-properties fo:break-before="column"/>

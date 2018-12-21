@@ -1,13 +1,13 @@
 .PHONY: pdf
-pdf: ar.pdf de.pdf en.pdf es.pdf fa.pdf fr.pdf
+pdf: KuB-Flyer-ar.pdf KuB-Flyer-de.pdf KuB-Flyer-en.pdf KuB-Flyer-es.pdf KuB-Flyer-fa.pdf KuB-Flyer-fr.pdf
 
 .PHONY: odt
-odt: ar.odt de.odt en.odt es.odt fa.odt fr.odt
+odt: KuB-Flyer-ar.odt KuB-Flyer-de.odt KuB-Flyer-en.odt KuB-Flyer-es.odt KuB-Flyer-fa.odt KuB-Flyer-fr.odt
 
 %.pdf: %.odt
 	lowriter --convert-to pdf $<
 
-%.odt: %.csv templates/content.xml templates/styles.xml templates/Pictures/*.svg template.py
+KuB-Flyer-%.odt: %.csv templates/content.xml templates/styles.xml templates/Pictures/*.svg template.py
 	python template.py templates/content.xml $< > src/content.xml
 	python template.py templates/styles.xml $< > src/styles.xml
 	python template.py templates/Pictures/bg1.svg $< > src/Pictures/bg1.svg

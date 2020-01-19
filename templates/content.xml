@@ -295,7 +295,7 @@
         </text:list>
         <text:p text:style-name="P2">{{ Wir unterstützen Sie in den Räumen der KuB. }}</text:p>
         <text:p text:style-name="P2">{{ Dafür schaffen wir eine geschützte Atmosphäre. }}</text:p>
-        <text:p text:style-name="P2">{{ Gemeinsam erarbeiten wir Wege, wie Sie ihre Probleme lösen. }} {{ Dabei beachten wir, was für Sie wichtig ist. }}</text:p>
+        <text:p text:style-name="P2">{{ Gemeinsam erarbeiten wir Wege, wie Sie Ihre Probleme lösen. }} {{ Dabei beachten wir, was für Sie wichtig ist. }}</text:p>
         <text:p text:style-name="P2">{{ Unsere Beraterinnen sehen sich Ihre ganze Situation an und unterstützen Sie dann. }}</text:p>
         <text:p text:style-name="P2">{{ Außerdem helfen wir Ihnen bei den Lösungswegen. }}</text:p>
         <text:p>{{ Wir haben zum Beispiel Menschen, die Sie zu Ämtern, Ärzt*innen und Rechtsanwält*innen begleiten. }}</text:p>

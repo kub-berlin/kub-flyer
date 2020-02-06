@@ -142,13 +142,20 @@
               <text:p text:style-name="P2">{{ Das Büro ist in der Regel offen: }}<text:line-break/>{{ Montag, Dienstag, Donnerstag und Freitag }}<text:line-break/>{{ von 9:00 bis 17:00 Uhr und }}<text:line-break/>{{ Mittwochs sind wir nur telefonisch erreichbar (13:00 - 17:00 Uhr) }}</text:p>
             </table:table-cell>
           </table:table-row>
+          <table:table-row>
+            <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+              <text:p text:style-name="P5"><text:span text:style-name="Primary">{{ Spendenkonto }}</text:span></text:p>
+            </table:table-cell>
+            <table:table-cell office:value-type="string">
+              <text:p text:style-name="P2">&#8296;DE70 4306 0967 1150 4052 02&#8297;</text:p>
+            </table:table-cell>
+          </table:table-row>
         </table:table>
         <text:p text:style-name="P2">
           <draw:frame text:anchor-type="paragraph" svg:width="9cm" svg:height="8.316cm" svg:y="0.5cm" draw:z-index="1">
             <draw:image xlink:href="Pictures/map.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
           </draw:frame>
         </text:p>
-
         <text:p text:style-name="P1b">
           <draw:frame text:anchor-type="paragraph" svg:width="9cm" svg:height="12.754cm" draw:z-index="1">
             <draw:image xlink:href="Pictures/front.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>

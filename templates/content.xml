@@ -88,58 +88,58 @@
           <table:table-column table:style-name="Table1.B"/>
           <table:table-row>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">KuB</text:span></text:p>
+              <text:p><text:span text:style-name="Primary">KuB</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Bold">&#8296;{{ Kontakt- und Beratungstelle für Flüchtlinge und Migrant_innen e.V. }}&#8297;</text:span><text:line-break/>Oranienstr. 159<text:line-break/>10969 Berlin</text:p>
-            </table:table-cell>
-          </table:table-row>
-          <table:table-row>
-            <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ Telefon }}</text:span></text:p>
-            </table:table-cell>
-            <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">&#8296;030 / 614 94 00&#8297;</text:p>
+              <text:p><text:span text:style-name="Bold">&#8296;{{ Kontakt- und Beratungstelle für Flüchtlinge und Migrant_innen e.V. }}&#8297;</text:span><text:line-break/>Oranienstr. 159<text:line-break/>10969 Berlin</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ Fax }}</text:span></text:p>
+              <text:p><text:span text:style-name="Primary">{{ Telefon }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">&#8296;030 / 615 45 34&#8297;</text:p>
-            </table:table-cell>
-          </table:table-row>
-          <table:table-row>
-            <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ E-Mail }}</text:span></text:p>
-            </table:table-cell>
-            <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">kontakt@kub-berlin.org</text:p>
+              <text:p>&#8296;030 / 614 94 00&#8297;</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ Internet }}</text:span></text:p>
+              <text:p><text:span text:style-name="Primary">{{ Fax }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">www.kub-berlin.org</text:p>
-            </table:table-cell>
-          </table:table-row>
-          <table:table-row>
-            <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">Facebook</text:span></text:p>
-            </table:table-cell>
-            <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">www.facebook.com/KuBFM</text:p>
+              <text:p>&#8296;030 / 615 45 34&#8297;</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2"><text:span text:style-name="Primary">{{ Bürozeiten }}</text:span></text:p>
+              <text:p><text:span text:style-name="Primary">{{ E-Mail }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">{{ Das Büro ist in der Regel offen: }}<text:line-break/>{{ Montag, Dienstag, Donnerstag und Freitag }}<text:line-break/>{{ von 9:00 bis 17:00 Uhr und }}<text:line-break/>{{ Mittwochs sind wir nur telefonisch erreichbar (13:00 - 17:00 Uhr) }}</text:p>
+              <text:p>kontakt@kub-berlin.org</text:p>
+            </table:table-cell>
+          </table:table-row>
+          <table:table-row>
+            <table:table-cell office:value-type="string">
+              <text:p><text:span text:style-name="Primary">{{ Internet }}</text:span></text:p>
+            </table:table-cell>
+            <table:table-cell office:value-type="string">
+              <text:p>www.kub-berlin.org</text:p>
+            </table:table-cell>
+          </table:table-row>
+          <table:table-row>
+            <table:table-cell office:value-type="string">
+              <text:p><text:span text:style-name="Primary">Facebook</text:span></text:p>
+            </table:table-cell>
+            <table:table-cell office:value-type="string">
+              <text:p>www.facebook.com/KuBFM</text:p>
+            </table:table-cell>
+          </table:table-row>
+          <table:table-row>
+            <table:table-cell office:value-type="string">
+              <text:p><text:span text:style-name="Primary">{{ Bürozeiten }}</text:span></text:p>
+            </table:table-cell>
+            <table:table-cell office:value-type="string">
+              <text:p>{{ Das Büro ist in der Regel offen: }}<text:line-break/>{{ Montag, Dienstag, Donnerstag und Freitag }}<text:line-break/>{{ von 9:00 bis 17:00 Uhr und }}<text:line-break/>{{ Mittwochs sind wir nur telefonisch erreichbar (13:00 - 17:00 Uhr) }}</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>
@@ -147,7 +147,7 @@
               <text:p text:style-name="P5"><text:span text:style-name="Primary">{{ Spendenkonto }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p text:style-name="P2">&#8296;DE70 4306 0967 1150 4052 02&#8297;</text:p>
+              <text:p>&#8296;DE70 4306 0967 1150 4052 02&#8297;</text:p>
             </table:table-cell>
           </table:table-row>
         </table:table>

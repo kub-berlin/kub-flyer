@@ -209,8 +209,8 @@
             <draw:text-box>
               <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Beratungszeiten }}</text:span></text:p>
               <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Montag, Dienstag, Donnerstag und Freitag }}</text:span></text:p>
-              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ immer von 9:00 bis 12:00 Uhr }}</text:span><text:line-break/></text:p>
-              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Sie können sich ab 8:30 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ immer von 9:30 bis 12:30 Uhr }}</text:span><text:line-break/></text:p>
+              <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Sie können sich um 9:00 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
             </draw:text-box>
           </draw:frame>
         </text:p>

@@ -139,7 +139,7 @@
               <text:p><text:span text:style-name="Primary">{{ Bürozeiten }}</text:span></text:p>
             </table:table-cell>
             <table:table-cell office:value-type="string">
-              <text:p>{{ Das Büro ist in der Regel offen: }}<text:line-break/>{{ Montag, Dienstag, Donnerstag und Freitag }}<text:line-break/>{{ von 9:00 bis 17:00 Uhr und }}<text:line-break/>{{ Mittwochs sind wir nur telefonisch erreichbar (13:00 - 17:00 Uhr) }}</text:p>
+              <text:p>{{ Das Büro ist in der Regel offen: }}<text:line-break/>{{ Montag, Dienstag, Donnerstag und Freitag }}<text:line-break/>{{ von 9:00 bis 17:00 Uhr }}<text:line-break/>{{ Mittwochs haben wir nur für Frauen* geöffnet (13:00 - 17:00 Uhr) }}</text:p>
             </table:table-cell>
           </table:table-row>
           <table:table-row>

@@ -90,6 +90,6 @@ if __name__ == '__main__':
 	with open(sys.argv[1]) as fh:
 		for lineno, line in enumerate(fh):
 			try:
-				print(parse(line.rstrip(), '{}', lambda s: translation[s]))
+				print(parse(line.rstrip(), '{}', lambda s: translation.get(s, s)))
 			except ParseError:
 				raise ParseError('ParseError in line %i' % lineno)

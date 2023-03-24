@@ -160,7 +160,7 @@
           <draw:image xlink:href="Pictures/front.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
         </draw:frame>
       </text:p>
-      <text:list xml:id="list6533296043094237197" text:style-name="List_20_1">
+      <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="P2"><text:span text:style-name="Big">{{ Beratung zu Asyl und Aufenthalt }}</text:span></text:p>
         </text:list-item>
@@ -186,7 +186,7 @@
       <text:p text:style-name="P2">{{ Kommen Sie bitte persönlich in die KuB. }}</text:p>
       <text:p>{{ Wir beraten nicht am Telefon und nicht per E-Mail. }}</text:p>
       <text:p text:style-name="P2">{{ **Bitte bringen Sie alle Papiere mit**, die für die Beratung wichtig sind. Zum Beispiel: }}</text:p>
-      <text:list xml:id="list4356021203831336434" text:style-name="List_20_1">
+      <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="P2">{{ Papiere vom Bundesamt für Migration und Flüchtlinge (BAMF), von der Ausländerbehörde, vom Jobcenter und so weiter. }}</text:p>
         </text:list-item>
@@ -195,7 +195,7 @@
         </text:list-item>
       </text:list>
       <text:p text:style-name="P2">{{ Zu uns kommen sehr viele Ratsuchende. Kommen Sie daher bitte früh am Morgen. Am besten schon um 8:30 Uhr. }}</text:p>
-      <text:list xml:id="list6138771530333179871" text:style-name="List_20_1">
+      <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="P2">{{ Bitte haben Sie Verständnis, wenn Sie warten müssen. }} {{ Es kann einige Zeit dauern, bis wir Sie beraten können. }}</text:p>
         </text:list-item>
@@ -216,7 +216,7 @@
 
       <text:h text:style-name="H2b">{{ Unterstützung durch Gespräche }}</text:h>
       <text:p>{{ Sie können zu uns kommen: }}</text:p>
-      <text:list xml:id="list994431085375790145" text:style-name="List_20_1">
+      <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="P2">{{ Wenn Sie schlecht schlafen. }}</text:p>
         </text:list-item>
@@ -276,7 +276,7 @@
       <text:h text:style-name="H2b">{{ Beratung für geflüchtete Frauen* }}</text:h>
       <text:p text:style-name="P2">{{ Die Frauen*beratung der KuB richtet sich an **geflüchtete Frauen, die besonderen Schutz brauchen**. }}</text:p>
       <text:p text:style-name="P2">{{ Das sind vor allem: }}</text:p>
-      <text:list xml:id="list5791448900076329614" text:style-name="List_20_1">
+      <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="P2">{{ Schwangere }}</text:p>
         </text:list-item>
@@ -291,7 +291,7 @@
         </text:list-item>
       </text:list>
       <text:p text:style-name="P2">{{ Wir beraten: }}</text:p>
-      <text:list xml:id="list276990488311838916" text:style-name="List_20_1">
+      <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="P2">{{ bei **Fragen zum Aufenthaltsrecht, zum Asylrecht und zum Sozialrecht** }}</text:p>
         </text:list-item>

@@ -146,7 +146,7 @@
       </table:table>
       <text:p text:style-name="P2">
         <draw:frame text:anchor-type="paragraph" svg:width="9cm" svg:height="8.316cm" svg:y="0.5cm" draw:z-index="1">
-          <draw:image xlink:href="Pictures/map.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+          <draw:image xlink:href="Pictures/map.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
         </draw:frame>
       </text:p>
       <text:p text:style-name="P1b">

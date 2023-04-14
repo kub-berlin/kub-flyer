@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[webseite-2.flyer-kub-2017]
+[o:kub:p:webseite-2:r:flyer-kub-2017]
 source_file = de.csv
 source_lang = de
 type = MAGENTO

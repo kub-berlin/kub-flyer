@@ -36,12 +36,6 @@
   </office:automatic-styles>
   <office:body>
     <office:text text:use-soft-page-breaks="true">
-      <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="30.3cm" svg:height="21.6cm" draw:z-index="0">
-        <draw:image xlink:href="Pictures/bg1.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
-      </draw:frame>
-      <draw:frame draw:style-name="BG" text:anchor-type="page" text:anchor-page-number="2" svg:x="0cm" svg:y="0cm" svg:width="30.3cm" svg:height="21.6cm" draw:z-index="0">
-        <draw:image xlink:href="Pictures/bg2.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
-      </draw:frame>
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="1" svg:x="6.4cm" svg:y="-0.1cm" svg:width="3.4cm" svg:height="3.4cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-deutschkurs.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>

@@ -20,19 +20,6 @@
     <style:style style:name="BoxBold" style:family="text">
       <style:text-properties fo:font-size="10pt" style:font-size-complex="10pt" fo:color="#ffffff" fo:font-weight="bold" style:font-weight-complex="bold"/>
     </style:style>
-
-    <style:style style:name="gr1" style:family="graphic">
-      <style:graphic-properties draw:stroke="none" draw:fill="bitmap" draw:fill-image-name="_32_" style:repeat="stretch" fo:padding-top="0.5cm" fo:padding-bottom="0.5cm" fo:padding-left="0.5cm" fo:padding-right="0.5cm"/>
-    </style:style>
-    <style:style style:name="gr2" style:family="graphic">
-      <style:graphic-properties draw:stroke="none" draw:fill="bitmap" draw:fill-image-name="_33_" style:repeat="stretch" fo:padding-top="0.5cm" fo:padding-bottom="0.5cm" fo:padding-left="0.5cm" fo:padding-right="0.5cm"/>
-    </style:style>
-    <style:style style:name="gr3" style:family="graphic">
-      <style:graphic-properties draw:stroke="none" draw:fill="bitmap" draw:fill-image-name="_34_" style:repeat="stretch" fo:padding-top="0.5cm" fo:padding-bottom="0.5cm" fo:padding-left="0.5cm" fo:padding-right="0.5cm"/>
-    </style:style>
-    <style:style style:name="gr4" style:family="graphic">
-      <style:graphic-properties draw:stroke="none" draw:fill="bitmap" draw:fill-image-name="_31_" style:repeat="stretch" fo:padding-top="0.5cm" fo:padding-bottom="0.5cm" fo:padding-left="0.5cm" fo:padding-right="0.5cm"/>
-    </style:style>
   </office:automatic-styles>
   <office:body>
     <office:text text:use-soft-page-breaks="true">
@@ -63,17 +50,6 @@
       <text:p text:style-name="P2"><text:span text:style-name="Bold">{{ Informationen: }}</text:span></text:p>
       <text:p text:style-name="P2">{{ Ein Kurs geht 6 Monate. }}</text:p>
       <text:p>{{ Alle Kurse gibt es pro Woche 1-mal, 2-mal oder 3-mal. }}</text:p>
-      <text:p>
-        <draw:frame text:anchor-type="paragraph" draw:style-name="gr4" svg:width="9.7cm" svg:x="-0.5cm" svg:y="0.5cm">
-          <draw:text-box>
-            <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Wir helfen dir einmal im Monat. }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Du kommst zu uns in die KuB. }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Der Tag ist immer der erste Freitag im Monat. }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Die Uhrzeit ist 15:30 Uhr. }}</text:span></text:p>
-          </draw:text-box>
-        </draw:frame>
-      </text:p>
 
       <text:h text:style-name="H1b">{{ Kontakt }}</text:h>
       <table:table table:name="Table1" table:style-name="Table1">
@@ -197,16 +173,6 @@
           <text:p>{{ Manchmal können wir Sie an dem Tag auch nicht beraten, weil so viele Ratsuchende zu uns kommen. Auch dafür bitten wir Sie um Verständnis. }}</text:p>
         </text:list-item>
       </text:list>
-      <text:p>
-        <draw:frame text:anchor-type="paragraph" draw:style-name="gr1" svg:width="10cm" svg:x="-0.5cm" svg:y="0.5cm">
-          <draw:text-box>
-            <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Beratungszeiten }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Montag, Dienstag, Donnerstag und Freitag }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ immer von 9:30 bis 12:30 Uhr }}</text:span><text:line-break/></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Sie können sich um 9:00 Uhr bei uns im Büro zur Beratung anmelden. Bei Fragen rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
-          </draw:text-box>
-        </draw:frame>
-      </text:p>
 
       <text:h text:style-name="H2b">{{ Unterstützung durch Gespräche }}</text:h>
       <text:p>{{ Sie können zu uns kommen: }}</text:p>
@@ -255,17 +221,6 @@
       <text:p text:style-name="P2">{{ Sie entscheiden, worüber wir reden. }}</text:p>
       <text:p text:style-name="P2">{{ Sie gehen keine Verpflichtungen ein. }}</text:p>
       <text:p>{{ Versuchen Sie es einfach! }}</text:p>
-      <text:p>
-        <draw:frame text:anchor-type="paragraph" draw:style-name="gr2" svg:width="10cm" svg:x="-0.5cm" svg:y="0.5cm">
-          <draw:text-box>
-            <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Sprechzeiten und Anmeldung }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Ohne Anmeldung: jeden Montag von 9:00 bis 11:00 Uhr }}</text:span><text:line-break/></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Oder Sie machen einen Termin bei uns. }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Schreiben Sie uns dafür eine E-Mail: }} psb@kub-berlin.org.</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Oder rufen Sie uns an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
-          </draw:text-box>
-        </draw:frame>
-      </text:p>
 
       <text:h text:style-name="H2b">{{ Beratung für geflüchtete Frauen* }}</text:h>
       <text:p text:style-name="P2">{{ Die Frauen*beratung der KuB richtet sich an **geflüchtete Frauen, die besonderen Schutz brauchen**. }}</text:p>
@@ -304,16 +259,6 @@
       <text:p>{{ Wenn Sie das wünschen, können wir Sie auch anonym beraten. Sie müssen uns dann nicht Ihren Namen nennen. }}</text:p>
       <text:p text:style-name="P2">{{ Die KuB ist Teil von dem „Berliner Netzwerk für besonders schutzbedürftige Flüchtlinge“ (BNS). }}</text:p>
       <text:p>{{ In dem Netzwerk ist die KuB die Frauenfachstelle. }}</text:p>
-      <text:p>
-        <draw:frame text:anchor-type="paragraph" draw:style-name="gr3" svg:width="9.7cm" svg:x="-0.5cm" svg:y="0.5cm">
-          <draw:text-box>
-            <text:p text:style-name="Box"><text:span text:style-name="BoxBold">{{ Anmeldung }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Wenn Sie eine Beratung brauchen: }}</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Rufen Sie uns bitte an: }} &#8296;030 / 614 94 00&#8297;</text:span></text:p>
-            <text:p text:style-name="Box"><text:span text:style-name="Box">{{ Oder schreiben Sie uns eine E-Mail: }} frauenberatung@kub-berlin.org</text:span></text:p>
-          </draw:text-box>
-        </draw:frame>
-      </text:p>
     </office:text>
   </office:body>
 </office:document-content>

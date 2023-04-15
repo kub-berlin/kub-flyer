@@ -63,7 +63,7 @@
       <style:graphic-properties style:run-through="background" style:wrap="run-through"/>
     </style:style>
     <style:style style:name="Icon" style:family="graphic">
-      <style:graphic-properties style:run-through="foreground" style:wrap="parallel" style:wrap-contour="true" style:horizontal-rel="{{ page-start-margin }}"/>
+      <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:wrap-contour="true" style:horizontal-rel="{{ page-start-margin }}"/>
     </style:style>
   </office:styles>
   <office:automatic-styles>

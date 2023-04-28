@@ -116,7 +116,7 @@
             <text:p><text:span text:style-name="Primary">{{ Internet }}</text:span></text:p>
           </table:table-cell>
           <table:table-cell office:value-type="string">
-            <text:p>www.kub-berlin.org</text:p>
+            <text:p>https://kub-berlin.org</text:p>
           </table:table-cell>
         </table:table-row>
         <table:table-row>
@@ -124,7 +124,7 @@
             <text:p><text:span text:style-name="Primary">Facebook</text:span></text:p>
           </table:table-cell>
           <table:table-cell office:value-type="string">
-            <text:p>www.facebook.com/KuBFM</text:p>
+            <text:p>https://www.facebook.com/KuBFM</text:p>
           </table:table-cell>
         </table:table-row>
         <table:table-row>

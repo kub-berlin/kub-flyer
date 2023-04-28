@@ -57,28 +57,15 @@
   </office:styles>
   <office:automatic-styles>
     <style:page-layout style:name="Mpm1">
-      <style:page-layout-properties fo:page-width="30.3cm" fo:page-height="21.6cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.8cm" style:writing-mode="{{ lr }}">
-        <style:columns fo:column-count="3">
-          <!-- <style:column&#45;sep style:width="0.05pt" style:color="#000000" style:height="100%" style:style="solid"/> -->
-          <style:column style:rel-width="{{ 5217* }}" fo:start-indent="0cm" fo:end-indent="0.5cm"/>
-          <style:column style:rel-width="5669*" fo:start-indent="0.5cm" fo:end-indent="0.5cm"/>
-          <style:column style:rel-width="{{ 5386* }}" fo:start-indent="0.5cm" fo:end-indent="0cm"/>
-        </style:columns>
-      </style:page-layout-properties>
-    </style:page-layout>
-    <style:page-layout style:name="Mpm2">
-      <style:page-layout-properties fo:page-width="30.3cm" fo:page-height="21.6cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.8cm" style:writing-mode="{{ lr }}">
-        <style:columns fo:column-count="3">
-          <!-- <style:column&#45;sep style:width="0.05pt" style:color="#000000" style:height="100%" style:style="solid"/> -->
-          <style:column style:rel-width="{{ 5386* }}" fo:start-indent="0cm" fo:end-indent="0.5cm"/>
-          <style:column style:rel-width="5669*" fo:start-indent="0.5cm" fo:end-indent="0.5cm"/>
-          <style:column style:rel-width="{{ 5217* }}" fo:start-indent="0.5cm" fo:end-indent="0cm"/>
+      <style:page-layout-properties fo:page-width="20.6cm" fo:page-height="21.6cm" style:num-format="1" style:print-orientation="landscape" fo:margin="0.8cm" style:writing-mode="{{ lr }}">
+        <style:columns fo:column-count="2">
+          <style:column style:rel-width="1" fo:start-indent="0cm" fo:end-indent="0.5cm"/>
+          <style:column style:rel-width="1" fo:start-indent="0.5cm" fo:end-indent="0cm"/>
         </style:columns>
       </style:page-layout-properties>
     </style:page-layout>
   </office:automatic-styles>
   <office:master-styles>
-    <style:master-page style:name="Standard" style:page-layout-name="Mpm1" style:next-style-name="Standard_Odd"/>
-    <style:master-page style:name="Standard_Odd" style:page-layout-name="Mpm2" style:next-style-name="Standard"/>
+    <style:master-page style:name="Standard" style:page-layout-name="Mpm1" style:next-style-name="Standard"/>
   </office:master-styles>
 </office:document-styles>

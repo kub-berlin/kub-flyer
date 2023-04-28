@@ -35,6 +35,9 @@
       <draw:frame draw:style-name="Icon" text:anchor-type="page" text:anchor-page-number="2" svg:x="17cm" svg:y="17cm" svg:width="3.2cm" svg:height="3.2cm" draw:z-index="1">
         <draw:image xlink:href="Pictures/icon-deutschkurs.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
       </draw:frame>
+      <draw:frame draw:style-name="QR" text:anchor-type="page" text:anchor-page-number="1" svg:x="7.8cm" svg:y="0" svg:width="2cm" svg:height="2cm" draw:z-index="1">
+        <draw:image xlink:href="Pictures/qr.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+      </draw:frame>
 
       <text:h text:style-name="H1b">{{ Kontakt }}</text:h>
       <table:table table:name="Table1" table:style-name="Table1">

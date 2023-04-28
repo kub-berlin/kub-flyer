@@ -54,6 +54,9 @@
     <style:style style:name="Icon" style:family="graphic">
       <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:wrap-contour="true" style:horizontal-rel="{{ page-start-margin }}" fo:margin="0.1cm"/>
     </style:style>
+    <style:style style:name="QR" style:family="graphic">
+      <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:horizontal-rel="{{ page-start-margin }}" fo:margin="0.3cm"/>
+    </style:style>
   </office:styles>
   <office:automatic-styles>
     <style:page-layout style:name="Mpm1">

@@ -56,7 +56,7 @@
     <draw:fill-image draw:name="_33_" draw:display-name="3" xlink:href="Pictures/box3.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
     <draw:fill-image draw:name="_34_" draw:display-name="4" xlink:href="Pictures/box4.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
     <style:style style:name="Icon" style:family="graphic">
-      <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:wrap-contour="true" style:horizontal-rel="{{ page-start-margin }}"/>
+      <style:graphic-properties style:run-through="foreground" style:wrap="dynamic" style:wrap-contour="true" style:horizontal-rel="{{ page-start-margin }}" fo:margin="0.1cm"/>
     </style:style>
   </office:styles>
   <office:automatic-styles>

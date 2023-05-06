@@ -9,6 +9,11 @@
 img {
 	max-width: 100%;
 }
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
 body {
 	width: 19cm;
 	position: relative;
@@ -18,11 +23,11 @@ section {
 	break-inside: avoid;
 	padding: 0.5cm;
 	width: 9.49cm;
-	height: 9.5cm;
+	height: 10cm;
 }
 #s-front,
 #s-kontakt {
-	height: 19cm;
+	height: 20cm;
 }
 #s-rechtsberatung,
 #s-frauenberatung {
@@ -101,7 +106,8 @@ p, ul {
 }
 @media print {
 	@page {
-		size: 20.6cm 21.6cm;
-		margin: 0.8cm;
+		size: 19cm 20cm;
+		bleed: 0.8cm;
+		margin: 0;
 	}
 }

@@ -56,7 +56,7 @@ def apply_bold(block):
 def get_translation(path):
 	with open(path) as fh:
 		rows = csv.reader(fh)
-		translation = {row[0].strip(): apply_bold(row[1].strip()) for row in rows}
+		translation = {row[0].strip(): row[1].strip() for row in rows}
 
 	translation['de'] = os.path.splitext(os.path.basename(path))[0]
 
@@ -79,9 +79,12 @@ def get_translation(path):
 if __name__ == '__main__':
 	translation = get_translation(sys.argv[2])
 
+	def translate(s):
+		return apply_bold(translation.get(s, s))
+
 	with open(sys.argv[1]) as fh:
 		for lineno, line in enumerate(fh):
 			try:
-				print(parse(line.rstrip(), '{}', lambda s: translation.get(s, s)))
+				print(parse(line.rstrip(), '{}', translate))
 			except ParseError:
 				raise ParseError('ParseError in line %i' % lineno)

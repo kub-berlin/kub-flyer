@@ -1,0 +1,107 @@
+:root {
+	font-family: "Noto Naskh Arabic", "Noto Sans", sans-serif;
+	font-size: 8pt;
+	line-height: 1.4;
+}
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+body {
+	width: 19cm;
+	position: relative;
+}
+section {
+	float: {{ start }};
+	break-inside: avoid;
+	padding: 0.5cm;
+	width: 9.49cm;
+	height: 9.5cm;
+}
+#s-front,
+#s-kontakt {
+	height: 19cm;
+}
+#s-rechtsberatung,
+#s-frauenberatung {
+	top: 20cm;
+}
+#s-psb,
+#s-deutschkurse {
+	top: 30cm;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+#s-front {
+	font-weight: bold;
+	font-size: 10pt;
+}
+#s-front ul {
+	font-size: 12pt;
+}
+h2 {
+	margin-top: 0;
+	line-height: 1.2;
+}
+ul {
+	padding-{{ start }}: 1.5em;
+	list-style: none;
+}
+/* HACK: work around weasyprint bug */
+li::before {
+	content: "•";
+	display: inline-block;
+	width: 1em;
+	margin-{{ start }}: -1em;
+}
+.list-style-none::before {
+	content: "";
+}
+dt {
+	font-weight: bold;
+	color: #005c5e;
+	width: 25%;
+	float: {{ start }};
+	clear: both;
+}
+dd {
+	margin: 0;
+	width: 74%;
+	float: {{ start }};
+	padding-{{ start }}: 0.3cm;
+	margin-bottom: 0.3cm;
+}
+p, ul {
+	margin-top: 0;
+	margin-bottom: 1.4em;
+}
+.icon {
+	width: 3cm;
+	float: {{ end }};
+	margin-{{ start }}: 0.1cm;
+	margin-bottom: 0.1cm;
+	shape-outside: circle();
+}
+#qr {
+	float: {{ end }};
+	margin-{{ start }}: 0.1cm;
+	margin-bottom: 0.1cm;
+	margin-top: -3em;
+	width: 2cm;
+}
+@media screen {
+	body {
+		display: flow-root;
+		margin: 2em auto;
+		box-shadow: 0 0 1em rgba(0,0,0,0.5);
+	}
+}
+@media print {
+	@page {
+		size: 20.6cm 21.6cm;
+		margin: 0.8cm;
+	}
+}

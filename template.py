@@ -49,7 +49,7 @@ def parse(s, chars, transform):
 
 def apply_bold(block):
 	def transform(s):
-		return '<text:span text:style-name="Bold">%s</text:span>' % s
+		return f'<strong>{s}</strong>'
 	return parse(block, '**', transform)
 
 
@@ -62,23 +62,15 @@ def get_translation(path):
 
 	if translation['de'] in ['ar', 'fa']:
 		translation.update({
-			'lr': 'rl',
-			'page-start-margin': 'page-end-margin',
-			'5217*': '5386*',
-			'5386*': '5217*',
-			'left': 'right',
-			'start': 'end',
-			'none': 'translate(128,0) scale(-1,1)',
+			'ltr': 'rtl',
+			'start': 'right',
+			'end': 'left',
 		})
 	else:
 		translation.update({
-			'lr': 'lr',
-			'page-start-margin': 'page-start-margin',
-			'5217*': '5217*',
-			'5386*': '5386*',
-			'left': 'left',
-			'start': 'start',
-			'none': 'none',
+			'ltr': 'ltr',
+			'start': 'left',
+			'end': 'right',
 		})
 
 	return translation

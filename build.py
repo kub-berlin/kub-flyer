@@ -1,3 +1,6 @@
+import sys
+
 from weasyprint import HTML
 
-HTML('KuB-Flyer-de.html').write_pdf('KuB-Flyer-de.pdf')
+
+HTML(sys.argv[1]).write_pdf(sys.argv[2])

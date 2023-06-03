@@ -110,7 +110,7 @@ p, ul {
 @media print {
 	@page {
 		size: 19cm 20cm;
-		bleed: 0.8cm;
+		/* bleed: 0.8cm; */
 		margin: 0;
 	}
 }

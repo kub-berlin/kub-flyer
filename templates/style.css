@@ -89,10 +89,23 @@ p, ul {
 .map {
 	margin-top: 2em;
 }
-.icon {
-	width: 3cm;
+.header {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url('img/box-bottom-{{ end }}.svg');
+	margin: 0 -0.4cm 1rem;
+	padding: 0.4cm;
+}
+.header-1,
+.header-2 {
+	margin-top: -0.4cm;
+}
+.header h2 {
+	margin: 0;
+.header .icon {
+	width: 2.5cm;
 	float: {{ end }};
-	margin-{{ start }}: 0.1cm;
+	margin-top: -0.2cm;
 	margin-bottom: 0.1cm;
 	shape-outside: circle();
 }

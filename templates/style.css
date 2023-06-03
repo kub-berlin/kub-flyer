@@ -21,9 +21,12 @@ body {
 section {
 	float: {{ start }};
 	break-inside: avoid;
-	padding: 0.5cm;
-	width: 9.49cm;
+	padding: 0.4cm;
+	width: 9.4cm;
 	height: 10cm;
+}
+section:nth-child(odd) {
+	margin-{{ end }}: 0.2cm;
 }
 #s-front,
 #s-kontakt {

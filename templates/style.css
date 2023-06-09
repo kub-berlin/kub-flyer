@@ -47,9 +47,6 @@ section:nth-child(odd) {
 	font-weight: bold;
 	font-size: 9pt;
 }
-#s-front ul {
-	font-size: 11pt;
-}
 h2 {
 	margin-top: 0;
 	line-height: 1.2;
@@ -88,6 +85,41 @@ p, ul {
 }
 .map {
 	margin-top: 2em;
+}
+.front {
+	display: flex;
+	align-items: center;
+	margin: 0 -0.4cm -0.5em;
+	padding: 0 0.4cm;
+}
+.front .icon {
+	flex: 0 0 2.4cm;
+	margin: -0.8em 0;
+}
+.front h2 {
+	flex: 0 1 5.5cm;
+	padding: 0 0.5cm;
+	font-size: 11pt;
+}
+.front-2,
+.front-4 {
+	flex-direction: row-reverse;
+	text-align: {{ end }};
+}
+.front-1,
+.front-3 {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url('img/box-bottom-{{ end }}.svg');
+}
+.front-3 {
+	background-image: url('img/band-top-{{ end }}.svg');
+}
+.front-1 {
+	margin-top: 2em;
+}
+.front-4 {
+	margin-bottom: 4em;
 }
 .header-1,
 .header-2 {

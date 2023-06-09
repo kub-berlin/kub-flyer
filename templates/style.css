@@ -93,10 +93,14 @@ p, ul {
 .header-2 {
 	margin-top: -0.4cm;
 }
+.header-3,
+.header-4 {
+	margin-top: -0.8cm;
+}
 .header h2 {
 	display: flex;
 	min-height: 4em;
-	margin: 0 -0.4cm 1rem;
+	margin: 0 -0.4cm 1.5rem;
 	padding: 0.4cm;
 	padding-{{ end }}: 2.9cm;
 	align-items: center;

@@ -65,12 +65,14 @@ def get_translation(path):
 			'ltr': 'rtl',
 			'start': 'right',
 			'end': 'left',
+			'font': '"Noto Naskh Arabic", "Noto Sans"',
 		})
 	else:
 		translation.update({
 			'ltr': 'ltr',
 			'start': 'left',
 			'end': 'right',
+			'font': '"Noto Sans"',
 		})
 
 	return translation

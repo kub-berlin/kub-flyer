@@ -96,6 +96,15 @@ p, ul {
 	background-size: 100% 100%;
 	background-image: url('img/box-top-{{ end }}.svg');
 	font-weight: bold;
+	position: relative;
+	padding-{{ end }}: 2.6cm;
+	min-height: 3cm;
+}
+#qr {
+	position: absolute;
+	bottom: 0.4cm;
+	{{ end }}: 0.4cm;
+	width: 2cm;
 }
 .front {
 	display: flex;
@@ -157,13 +166,6 @@ p, ul {
 	margin-top: 0.2cm;
 	margin-bottom: 0.1cm;
 	shape-outside: circle();
-}
-#qr {
-	float: {{ end }};
-	margin-{{ start }}: 0.1cm;
-	margin-bottom: 0.1cm;
-	margin-top: -3em;
-	width: 2cm;
 }
 @media screen {
 	body {

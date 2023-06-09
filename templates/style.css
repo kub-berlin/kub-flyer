@@ -89,23 +89,25 @@ p, ul {
 .map {
 	margin-top: 2em;
 }
-.header {
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-image: url('img/box-bottom-{{ end }}.svg');
-	margin: 0 -0.4cm 1rem;
-	padding: 0.4cm;
-}
 .header-1,
 .header-2 {
 	margin-top: -0.4cm;
 }
 .header h2 {
-	margin: 0;
+	display: flex;
+	min-height: 4em;
+	margin: 0 -0.4cm 1rem;
+	padding: 0.4cm;
+	padding-{{ end }}: 2.9cm;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url('img/box-bottom-{{ end }}.svg');
+}
 .header .icon {
 	width: 2.5cm;
 	float: {{ end }};
-	margin-top: -0.2cm;
+	margin-top: 0.2cm;
 	margin-bottom: 0.1cm;
 	shape-outside: circle();
 }

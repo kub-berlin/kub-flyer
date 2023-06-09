@@ -40,11 +40,13 @@ section:nth-child(odd) {
 #s-deutschkurse {
 	top: 30cm;
 }
+#s-front {
+	font-weight: bold;
+}
 .mb-0 {
 	margin-bottom: 0;
 }
-#s-front {
-	font-weight: bold;
+.big {
 	font-size: 9pt;
 }
 h2 {
@@ -85,6 +87,15 @@ p, ul {
 }
 .map {
 	margin-top: 2em;
+}
+.box {
+	margin: 2em -0.4cm 0;
+	padding: 0.4cm;
+	padding-top: 0.8cm;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url('img/box-top-{{ end }}.svg');
+	font-weight: bold;
 }
 .front {
 	display: flex;

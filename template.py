@@ -82,7 +82,7 @@ if __name__ == '__main__':
 	translation = get_translation(sys.argv[2])
 
 	def translate(s):
-		return apply_bold(translation.get(s, s))
+		return apply_bold(translation.get(s) or s)
 
 	with open(sys.argv[1]) as fh:
 		for lineno, line in enumerate(fh):

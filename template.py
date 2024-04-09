@@ -75,6 +75,11 @@ def get_translation(path):
 			'font': '"Noto Sans"',
 		})
 
+	if translation['de'] == 'fr':
+		translation['extra-css'] = '.box { font-size: 8pt; }'
+	else:
+		translation['extra-css'] = ''
+
 	return translation
 
 

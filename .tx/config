@@ -2,7 +2,7 @@
 host = https://www.transifex.com
 
 [o:kub:p:webseite-2:r:flyer-kub-2017]
-source_file = de.csv
+source_file = translations/de.csv
 source_lang = de
 type = MAGENTO
-file_filter = <lang>.csv
+file_filter = translations/<lang>.csv

@@ -49,36 +49,30 @@ def parse(s, chars, transform):
 
 def apply_bold(block):
 	def transform(s):
-		return '<text:span text:style-name="Bold">%s</text:span>' % s
+		return f'<strong>{s}</strong>'
 	return parse(block, '**', transform)
 
 
 def get_translation(path):
 	with open(path) as fh:
 		rows = csv.reader(fh)
-		translation = {row[0].strip(): apply_bold(row[1].strip()) for row in rows}
+		translation = {row[0].strip(): row[1].strip() for row in rows}
 
 	translation['de'] = os.path.splitext(os.path.basename(path))[0]
 
 	if translation['de'] in ['ar', 'fa']:
 		translation.update({
-			'lr': 'rl',
-			'page-start-margin': 'page-end-margin',
-			'5217*': '5386*',
-			'5386*': '5217*',
-			'left': 'right',
-			'start': 'end',
-			'none': 'translate(128,0) scale(-1,1)',
+			'ltr': 'rtl',
+			'start': 'right',
+			'end': 'left',
+			'font': '"Noto Naskh Arabic", "Noto Sans"',
 		})
 	else:
 		translation.update({
-			'lr': 'lr',
-			'page-start-margin': 'page-start-margin',
-			'5217*': '5217*',
-			'5386*': '5386*',
-			'left': 'left',
-			'start': 'start',
-			'none': 'none',
+			'ltr': 'ltr',
+			'start': 'left',
+			'end': 'right',
+			'font': '"Noto Sans"',
 		})
 
 	return translation
@@ -87,9 +81,12 @@ def get_translation(path):
 if __name__ == '__main__':
 	translation = get_translation(sys.argv[2])
 
+	def translate(s):
+		return apply_bold(translation.get(s) or s)
+
 	with open(sys.argv[1]) as fh:
 		for lineno, line in enumerate(fh):
 			try:
-				print(parse(line.rstrip(), '{}', lambda s: translation[s]))
+				print(parse(line.rstrip(), '{}', translate))
 			except ParseError:
 				raise ParseError('ParseError in line %i' % lineno)

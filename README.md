@@ -1,7 +1,7 @@
 # Source files for our flyer
 
 These are the source files that are needed to build the kub flyer in different
-language (with support for right-to-left scripts).
+languages (with support for right-to-left scripts).
 
 To build all versions, simply run `make`.
 
@@ -9,11 +9,8 @@ To build all versions, simply run `make`.
 
 ## Requirements
 
--	LibreOffice Writer
 -	python3
--	translation files from [transifex](https://www.transifex.com/kub/webseite-2/flyer-kub-2017/).
--	font [Nunito Sans](https://www.fontsquirrel.com/fonts/nunito-sans)
--	xmlformat (optional)
+-	fonts Noto Sans and Noto Naskh Arabic
 
 ## Format
 

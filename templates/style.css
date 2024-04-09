@@ -1,6 +1,6 @@
 :root {
 	font-family: {{ font }}, sans-serif;
-	font-size: 8pt;
+	font-size: 9pt;
 	line-height: 1.4;
 }
 * {
@@ -15,14 +15,14 @@ body {
 	margin: 0;
 }
 body {
-	width: 19cm;
+	width: 19.8cm;
 	position: relative;
 }
 section {
 	float: {{ start }};
 	break-inside: avoid;
 	padding: 0.4cm;
-	width: 9.4cm;
+	width: 9.8cm;
 	height: 10cm;
 }
 section:nth-child(odd) {
@@ -30,15 +30,15 @@ section:nth-child(odd) {
 }
 #s-front,
 #s-kontakt {
-	height: 20cm;
+	height: 21cm;
 }
 #s-rechtsberatung,
 #s-frauenberatung {
-	top: 20cm;
+	top: 21cm;
 }
 #s-psb,
 #s-deutschkurse {
-	top: 30cm;
+	top: 31cm;
 }
 #s-front {
 	font-weight: bold;
@@ -89,8 +89,8 @@ p, ul {
 	margin-top: 2em;
 }
 .box {
-	margin: 2em -0.4cm 0;
-	padding: 0.4cm;
+	margin: 2em -0.5cm 0;
+	padding: 0.5cm;
 	padding-top: 0.8cm;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -103,14 +103,14 @@ p, ul {
 #qr {
 	position: absolute;
 	bottom: 0.4cm;
-	{{ end }}: 0.4cm;
+	{{ end }}: 0.5cm;
 	width: 2cm;
 }
 .front {
 	display: flex;
 	align-items: center;
-	margin: 0 -0.4cm -0.5em;
-	padding: 0 0.4cm;
+	margin: 0 -0.5cm -0.5em;
+	padding: 0 0.5cm;
 }
 .front .icon {
 	flex: 0 0 2.4cm;
@@ -142,19 +142,17 @@ p, ul {
 	margin-bottom: 4em;
 }
 .header-1,
-.header-2 {
-	margin-top: -0.4cm;
-}
+.header-2,
 .header-3,
 .header-4 {
-	margin-top: -0.8cm;
+	margin-top: -0.5cm;
 }
 .header h2 {
 	display: flex;
 	min-height: 4em;
-	margin: 0 -0.4cm 1.5rem;
-	padding: 0.4cm;
-	padding-{{ end }}: 2.9cm;
+	margin: 0 -0.5cm 1.5rem;
+	padding: 0.5cm;
+	padding-{{ end }}: 3cm;
 	align-items: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -176,8 +174,8 @@ p, ul {
 }
 @media print {
 	@page {
-		size: 19cm 20cm;
-		/* bleed: 0.8cm; */
+		size: 19.8cm 21cm;
+		bleed: 0.1cm;
 		margin: 0;
 	}
 }

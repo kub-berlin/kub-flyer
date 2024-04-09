@@ -18,7 +18,5 @@ To build all versions, simply run `make`.
 ## Format
 
 The flyer is intended to be printed as four-color [folded
-leaflet](https://www.flyeralarm.com/sheets/en/falt_a4aufdl_w_mass.pdf) on A4
+leaflet](https://www.flyeralarm.com/sheets/en/falt_ddlaufdl_hoch_mass.pdf) on A4
 paper with three columns (10cm, 10cm, 9.7cm) and a 0.5cm margin.
-
-For right-to-left scripts, you should pick the "fold right" option.

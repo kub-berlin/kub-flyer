@@ -1,5 +1,5 @@
 .PHONY: pdf
-pdf: KuB-Flyer-ar.pdf KuB-Flyer-de.pdf KuB-Flyer-en.pdf KuB-Flyer-es.pdf KuB-Flyer-fa.pdf KuB-Flyer-fr.pdf
+pdf: KuB-Flyer-ar.pdf KuB-Flyer-de.pdf KuB-Flyer-en.pdf KuB-Flyer-es.pdf KuB-Flyer-fa.pdf KuB-Flyer-fr.pdf KuB-Flyer-ru.pdf
 
 .PHONY: html
 html: translations/de.csv templates/content.html templates/style.css .venv

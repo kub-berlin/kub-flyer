@@ -66,6 +66,7 @@ def get_translation(path):
 			'start': 'right',
 			'end': 'left',
 			'font': '"Noto Naskh Arabic", "Noto Sans"',
+			'font-size': '10pt',
 		})
 	else:
 		translation.update({
@@ -73,6 +74,7 @@ def get_translation(path):
 			'start': 'left',
 			'end': 'right',
 			'font': '"Noto Sans"',
+			'font-size': '9pt',
 		})
 
 	if translation['de'] == 'fr':

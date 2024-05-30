@@ -1,6 +1,6 @@
 :root {
 	font-family: {{ font }}, sans-serif;
-	font-size: 9pt;
+	font-size: {{ font-size }};
 	line-height: 1.4;
 }
 * {
@@ -47,7 +47,7 @@ section:nth-child(odd) {
 	margin-bottom: 0;
 }
 .big {
-	font-size: 9pt;
+	font-size: 110%;
 }
 h2 {
 	margin-top: 0;

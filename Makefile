@@ -6,7 +6,7 @@ html: translations/de.csv templates/content.html templates/style.css .venv
 	.venv/bin/python template.py templates/content.html $< > content.html
 	.venv/bin/python template.py templates/style.css $< > style.css
 
-KuB-Flyer-%.pdf: translations/%.csv templates/content.html templates/style.css .venv
+KuB-Flyer-%.pdf: translations/%.csv templates/content.html templates/style.css .venv template.py build.py
 	.venv/bin/python template.py templates/content.html $< > content.html
 	.venv/bin/python template.py templates/style.css $< > style.css
 	.venv/bin/python build.py content.html $@
